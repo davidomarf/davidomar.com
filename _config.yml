@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "es"
-title                    : "David Omar"
+title                    : "Notas -pensamientos e ideas-"
 title_separator          : "-"
 name                     : "David Omar"
-description              : "An amazing website."
+description              : "Notas: un espacio más personal"
 url                      : "https://davidomarf.github.io"
 baseurl                  : #"/blog"
 repository               : "DavidOmarF/davidomarf.github.io"
