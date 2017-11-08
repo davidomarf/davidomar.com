@@ -1,10 +1,22 @@
 ---
-layout: posts
-title:  "Welcome to Jekyll!"
-date:   2015-11-17 16:16:01 -0600
-categories: jekyll update
+title: "Post: Header Image with OpenGraph Override"
+header:
+  image: /assets/images/page-header-image.png
+  og_image: /assets/images/page-header-og-image.png
+categories:
+  - Layout
+  - Uncategorized
+tags:
+  - edge case
+  - image
+  - layout
+last_modified_at: 2017-10-26T15:12:19-04:00
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This post has a header image with an OpenGraph override.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+```yaml
+header:
+  image: /assets/images/page-header-image.png
+  og_image: /assets/images/page-header-og-image.png
+```
