@@ -10,9 +10,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-extractor-web-estatico:
-  - title: "Prólogo"
-    children:
-      - title: "Introducción y Motivación"
-        url: "/Introduccion"
