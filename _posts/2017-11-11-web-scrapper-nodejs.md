@@ -1,10 +1,10 @@
 ---
 title: "Construyendo un extractor web con NodeJS, Cheerio, y Request"
 categories:
-  - Datos
-  - Aplicaciones Web
+  - Blog
 tags:
-  - extracción de datos
+  - datos
+  - web
 ---
 
 ## Prefacio
