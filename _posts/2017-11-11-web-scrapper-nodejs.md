@@ -7,6 +7,7 @@ tags:
   - extracción de datos
 sidebar:
   nav: "extractor-web-estatico"
+author_profile: false
 ---
 
 ## Introducción y motivación
