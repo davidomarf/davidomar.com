@@ -33,4 +33,4 @@ Con el fin de mantener la legibilidad -*y satisfacer un poco mi ligera y recient
 
 ------------------------
 
-## El *acercamiento* dinámico   
+## El *acercamiento* dinámico
