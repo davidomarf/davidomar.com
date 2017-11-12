@@ -179,3 +179,26 @@ request(url, function (err, res, body) {
 ```
 
 ![Letra de la canción impresa en la consola](/assets/images/letras-impresas-consola.png){:class="img-responsive"}
+
+## Conclusión
+
+Esta implementación funciona perfectamente bien, siempre y cuando estemos seguros que la página que estamos visitando tiene su propio código fuente, y no es generado cada vez que se consulta.
+
+Actualmente estoy trabajando en un extractor de datos dinámicos para mejorar la API.
+
+¿Por qué?
+
+Porque funciona bien, siempre y cuando proporcionemos el nombre de artista y canción correctos.
+Pero si tenemos un error en la escritura de cualquiera de los dos, visita un sitio que no existe.
+
+Y si visita un sitio que no existe, no habrán datos que extraer.
+
+Por ejemplo:
+
+[Phil Collins, Another Day in Paradise](https://gimme-the-lyrics.glitch.me/phil%20collins&another%20day%20in%20paradise){:target="_blank"} funciona bien;
+
+[Phill Collins, Another Day in Paradise](https://gimme-the-lyrics.glitch.me/phill%20collins&another%20day%20in%20paradise){:target="_blank"}, no.
+
+La solución que planeo implementar es obtener la mejor coincidencia en una búsqueda, que es más flexible en cuanto errores de escritura o información incompleta.
+
+Escribiré sobre ello en cuanto esté listo.
