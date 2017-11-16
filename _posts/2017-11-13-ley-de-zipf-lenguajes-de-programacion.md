@@ -55,6 +55,47 @@ Por ahora, la propiedad del número de ocurrencias quedará pendiente, ya que é
 
 Para lo que pretendo usar, seguramente no utilizaré ni siquiera la mitad de *propiedades* que voy a minar. Pero es que durante el desarrollo, se me ocurrió compartir el conjunto de datos. Así podré ver qué análisis pueden darle otras personas.
 
+### Esquematización del proceso
+
+1. **Escoger repositorios aleatoriamente**: Crear un archivo .csv, que contenga **n** direcciones web, apuntando a repositorios aleatorios. **Nota**: será importante ignorar los repositorios «recién nacidos»
+1. **Minar todos los repositorios de la lista**: Obtener todos los archivos dentro de un repositorio, y procesar cada uno.
+
+### Obtener direcciones de repositorios
+
+Estaba comenzando a morir pensando cómo podía obtener una lista de repositorios *aleatoria*. Lista en la que no hubiera ninguna tendencia hacia ningún extremo en número de estrellas, forks, o fecha de actualización.
+
+Los resultados de una búsqueda varían cada vez que sea hace una consulta, así que definitivamente no era una opción.
+
+Después, encontré la API de GitHub. Específicamente [List all public repositories](https://developer.github.com/v3/repos/#list-all-public-repositories).
+
+Así que, escribo un programa para consultar la API recurrentemente, y me dedico a otras cosas mientras lo dejo ejecutando.
+
+```python
+import csv
+import requests
+import json
+
+api = "https://api.github.com/repositories?since="
+since = 0
+
+url_csv = open("urls.csv", 'w+')
+
+url = api + str(since)
+response = requests.get(url, auth=('davidomarf','mi llave que no puedo compartirte :('))
+
+while response.ok:
+    url = api + str(since)
+    response = requests.get(url, auth=('davidomarf','mi llave que no puedo compartirte :('))
+
+    reposList = json.loads(response.content)
+    for repo in reposList:
+        url_csv.write(repo['html_url'] + '\n')
+
+    since = since + len(reposList)
+
+url_csv.close()
+```
+
 ## Procesamiento del archivo crudo
 
 Una vez habiendo obtenido el archivo crudo, tenemos que procesarlo, de forma que podamos contabilizar **sólo** las palabras clave.
