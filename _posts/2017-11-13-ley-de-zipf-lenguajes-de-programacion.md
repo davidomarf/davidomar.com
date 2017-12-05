@@ -1,5 +1,5 @@
 ---
-title: "Visualizando la ley de Zipf en los proyectos alojados en GitHub"
+title: "Visualizando la ley de Zipf en diferentes lenguajes de programación"
 categories:
   - Blog
 tags:
