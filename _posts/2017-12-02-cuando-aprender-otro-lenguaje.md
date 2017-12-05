@@ -124,11 +124,15 @@ En lenguajes como Python o Ruby, puedes usar directamente los diccionarios (o ta
 
 En otros, como en C, sólo cuentas con arreglos, y tienes que arreglártelas para implementar toda otra estructura que necesites.
 
-En algunos lenguajes, los arreglos pueden contener datos de diferente tipo. En otros, no. 
+En algunos lenguajes, los arreglos pueden contener datos de diferente tipo. En otros, no.
 
-A veces, los lenguajes cuentan con tuplas.
+### ¿Por qué es especial?
 
-## Por qué aprender otro lenguaje
+Como comenté antes, muchos lenguajes tienen ciertas peculiaridades. Algunos son tremendamente increíbles para computación matemática. Algunos aprovechan mejor que otros la concurrencia.
+
+La respuesta a esta pregunta, debería ser la misma a la siguiente:
+
+## Por qué aprender "ese" lenguaje
 
 **tl;dr: te provee de nuevos conceptos, haciéndote mejor programador.**
 
