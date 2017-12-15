@@ -5,7 +5,6 @@ categories:
 tags:
   - datos
   - web
-toc: true
 ---
 
 ## Prefacio

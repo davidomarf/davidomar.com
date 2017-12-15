@@ -56,24 +56,41 @@
   }
 }
 
+// .sidebar__right {
+//   margin-bottom: 1em;
+
+//   @include breakpoint($large) {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     width: $right-sidebar-width-narrow;
+//     margin-right: -1 * $right-sidebar-width-narrow;
+//     padding-left: 1em;
+//     z-index: 10;
+//   }
+
+//   @include breakpoint($x-large) {
+//     width: $right-sidebar-width;
+//     margin-right: -1 * $right-sidebar-width;
+//   }
+// }
+
 .sidebar__right {
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
+    float: right;
     width: $right-sidebar-width-narrow;
-    margin-right: -1 * $right-sidebar-width-narrow;
-    padding-left: 1em;
+    margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
-    margin-right: -1 * $right-sidebar-width;
   }
 }
+
 
 .splash .sidebar__right {
 
