@@ -3,6 +3,10 @@ main:
   - title: "Sobre mí"
     url: /sobre-mi/
   - title: "Artículos"
-    url: /blog/
+    url: /archive/
   - title: "Charlas"
     url: /charlas/
+  - title: "Publicaciones"
+    url: /publicaciones/
+  - title: "Proyectos"
+    url: /proyectos/

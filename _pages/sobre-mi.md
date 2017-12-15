@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /sobre-mi
+permalink: /sobre-mi/
 title: "Sobre mí"
 header:
   overlay_image: images/unsplash-image-1.jpg
