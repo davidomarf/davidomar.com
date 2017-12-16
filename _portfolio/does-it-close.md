@@ -1,16 +1,19 @@
 ---
-title: "Baz Boom Identity"
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+title: "Does it close?"
+excerpt: "Aplicación web (y, próximamente móvil) para estudiantes y profesionales de la topografía"
 header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
+  image: images/proyectos.jpg
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+  - title: "Rol"
+    # image: http://placehold.it/350x250
+    # image_alt: "logo"
+    text: "<ul><li>Full stack developer</li><li>Software engineer</li></ul>"
+  - title: "Lenguajes"
+    text: "<ul><li>JavaScript</li></ul>"
+  - title: "Tecnologías"
+    text: "<ul><li><b>Backend:</b> Node.js + Express Framework</li>
+            <li><b>Frontend:</b> Vanilla JS + Snap.svg</li>"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
