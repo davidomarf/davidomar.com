@@ -50,20 +50,45 @@ En 1943 se creó el primer modelo de neuronas artificiales. A pesar de que el t�
 
 Uno de los objetivos de la inteligencia artificial consiste en dotar al computador de las habilidades que, nosotros como humanos, damos por sentado —una vez aprendidas.
 
-Cosas como reconocer el rostro de nuestros amigos, entender las palabras de alguien, o manejar, son unas de ellas.
+Algunos frutos de esta rama ya están algo maduros, como —lo explicaré más adelante— la visión artificial.
 
-Incluso, se han publicado artículos de investigación de modelos para detectar el sarcasmo en los mensajes de texto.
+Otros, como conseguir que un robot estibe cajas, están algo... verdes.
 
-![Detector de Sarcasmo](http://www.telegraph.co.uk/content/dam/technology/2017/08/07/Simpsons-sarcasm-detector-xlarge_trans_NvBQzQNjv4BquYsoiHywuRbpECh2kaughKHxSnsjjYOBMSJiOgQYU2U.jpg)
+<center><blockquote class="imgur-embed-pub" lang="en" data-id="led15Z7"><a href="//imgur.com/led15Z7">Shitty helperbot</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></center>
 
-Claro que existen diferentes ramas de ésta: creatividad artificial, reconocimiento de habla —o hablante—, reconocimiento de patrones, etc.
+------------
 
-Pero la estrella de la noche es la visión artificial.
+La inteligencia artificial tiene usos que probablemente conocías, como el «Descubrimiento Semanal» de Spotify, que filtra de vez en cuando aquellos gustos rasposos que tienes.
 
-## Visión artificial
+Y algunos de los cuales no tenías ni idea, como Google, [encontrando la receta para la galleta de chocolate perfecta](https://www.cnbc.com/2017/12/05/eric-schmidt-google-used-ai-to-create-the-perfect-cookie-recipe.html). O Mathieu Cliche, [creando un detector de sarcasmo basado en tuits](http://www.thesarcasmdetector.com/about/).
 
-Rateado directamente de Wikipedia:
+Son usos peculiares, pero sin duda, uno que me sorprendió conocer fue el de la generación de miniaturas para YouTube. Sólo que antes de llegar a ello, hablaremos sobre la estrella de la noche: la visión por computadora.
 
-> Disciplina que incluye métodos para adquirir, procesar, analizar, y comprender las imágenes del mundo real con el fin de producir información numérica o simbólica para que puedan ser tratados por un computador.
+### Visión por computadora
 
-olamigo jaja apoko no
+También llamada visión artificial. Es la disciplina que pretende darle a la computadora la capacidad de generar información útil a partir de una imagen.
+
+Entre sus aplicaciones están el reconocimiento de rostros, reconocimiento de texto, y la tecnología de conducción autónoma.
+
+Dos de las tareas más importantes que realiza son la clasificación y la detección.
+
+Imaginemos que utilizamos nuestra computadora para que nos arroje información a partir de esta imagen:
+
+En términos simples, la clasificación responde a la pregunta *¿qué?*, y la detección, *¿dónde?*.
+
+Hay muchos motores que consiguen "pasar" la parte de la detección. Pero hay algo más importante que eso, y es la descripción de la imagen.
+
+Una cosa es decir:
+
+> [perro, sombrero]
+
+y otra:
+
+> Un dulce perrito chihuahua utilizando un magnífico sombrero de ala ancha hecho a la medida.
+
+Existe un proyecto llamado ImageNet: un esfuerzo de investigación que provee un conjunto de imágenes a investigadores, facilitando el avance de la visión artificial.
+
+ImageNet organiza un desafío anual: *"ImageNet large-scale visual recognition challenge"*, o ILSVRC, el desafío más grande en el área, en donde se exponen los últimos avances.
+
+En el 2014, GoogLeNet ganó el primer lugar en las tareas de clasificación y detección en imágenes.
+
