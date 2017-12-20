@@ -4,9 +4,9 @@ main:
     url: /sobre-mi/
   - title: "Artículos"
     url: /archive/
-  - title: "Charlas"
-    url: /charlas/
-  - title: "Publicaciones"
-    url: /publicaciones/
+  # - title: "Charlas"
+  #   url: /charlas/
+  # - title: "Publicaciones"
+  #   url: /publicaciones/
   - title: "Proyectos"
     url: /proyectos/
