@@ -1,13 +1,11 @@
 ---
 title: "Does it close?"
 excerpt: "Aplicación web (y, próximamente móvil) para estudiantes y profesionales de la topografía"
-header:
-  image: images/proyectos.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+# header:
+  # image: images/proyectos.jpg
+  # teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Rol"
-    # image: http://placehold.it/350x250
-    # image_alt: "logo"
     text: "<ul><li>Full stack developer</li><li>Software engineer</li></ul>"
   - title: "Lenguajes"
     text: "<ul><li>JavaScript</li></ul>"

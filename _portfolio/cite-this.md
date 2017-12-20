@@ -1,9 +1,9 @@
 ---
 title: "Cite this"
 excerpt: "API that generates citations in different styles given the resource info"
-header:
-  image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/unsplash-gallery-image-2-th.jpg
+# header:
+#   image: /assets/images/unsplash-gallery-image-2.jpg
+#   teaser: assets/images/unsplash-gallery-image-2-th.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250

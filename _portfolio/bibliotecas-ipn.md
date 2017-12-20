@@ -1,9 +1,9 @@
 ---
 title: "Bibliotecas IPN"
 excerpt: "Aplicación web y móvil para consultar la base de datos de libros del IPN."
-header:
-  image: images/proyectos.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+# header:
+#   image: images/proyectos.jpg
+#   teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Rol"
     # image: http://placehold.it/350x250
