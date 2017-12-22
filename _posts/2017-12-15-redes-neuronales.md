@@ -50,7 +50,7 @@ En 1943 se creó el primer modelo de neuronas artificiales. A pesar de que el t�
 
 Uno de los objetivos de la inteligencia artificial consiste en dotar al computador de las habilidades que, nosotros como humanos, damos por sentado —una vez aprendidas.
 
-Algunos frutos de esta rama ya están algo maduros, como —lo explicaré más adelante— la visión artificial.
+Algunos frutos de esta rama ya están algo maduros, como —ya explicaré más adelante— la visión artificial.
 
 Otros, como conseguir que un robot estibe cajas, están algo... verdes.
 
@@ -58,37 +58,50 @@ Otros, como conseguir que un robot estibe cajas, están algo... verdes.
 
 ------------
 
-La inteligencia artificial tiene usos que probablemente conocías, como el «Descubrimiento Semanal» de Spotify, que filtra de vez en cuando aquellos gustos rasposos que tienes.
+La inteligencia artificial tiene usos que probablemente imaginabas, como el «Descubrimiento Semanal» de Spotify, que filtra de vez en cuando aquellos gustos rasposos que tienes. O la posibilidad de lucir la cara de un perro con los filtros de Snapchat.
 
 Y algunos de los cuales no tenías ni idea, como Google, [encontrando la receta para la galleta de chocolate perfecta](https://www.cnbc.com/2017/12/05/eric-schmidt-google-used-ai-to-create-the-perfect-cookie-recipe.html). O Mathieu Cliche, [creando un detector de sarcasmo basado en tuits](http://www.thesarcasmdetector.com/about/).
 
 Son usos peculiares, pero sin duda, uno que me sorprendió conocer fue el de la generación de miniaturas para YouTube. Sólo que antes de llegar a ello, hablaremos sobre la estrella de la noche: la visión por computadora.
 
-### Visión por computadora
+## Visión por computadora
 
 También llamada visión artificial. Es la disciplina que pretende darle a la computadora la capacidad de generar información útil a partir de una imagen.
 
 Entre sus aplicaciones están el reconocimiento de rostros, reconocimiento de texto, y la tecnología de conducción autónoma.
 
-Dos de las tareas más importantes que realiza son la clasificación y la detección.
+Dos de las tareas más importantes que realiza son la clasificación y la detección. Explicar cómo funcionan y en qué consiste cada una lo haré en otro momento, pues no es necesario para llegar al punto principal de este artículo: las redes neuronales. Además es bastante largo.
 
-Imaginemos que utilizamos nuestra computadora para que nos arroje información a partir de esta imagen:
+### El desafío ImageNet
 
-En términos simples, la clasificación responde a la pregunta *¿qué?*, y la detección, *¿dónde?*.
+Existe un proyecto llamado ImageNet, un esfuerzo de investigación que pretende acelerar el desarrollo de la visión por computadora.
 
-Hay muchos motores que consiguen "pasar" la parte de la detección. Pero hay algo más importante que eso, y es la descripción de la imagen.
+ImageNet organiza un desafío anual: *"ImageNet large-scale visual recognition challenge"*, o ILSVRC, el desafío más grande y difícil en el área, en donde se exponen los últimos avances de investigación.
 
-Una cosa es decir:
+En el [ILSVRC 2014](http://www.image-net.org/challenges/LSVRC/2014/), GoogLeNet ganó el primer lugar en las categorías de clasificación y detección en imágenes.
 
-> [perro, sombrero]
+Estos son algunos ejemplos de las imágenes que GoogLeNet pudo procesar:
 
-y otra:
+![Perrito con sombrero](https://2.bp.blogspot.com/-TDP7iU5MRSo/VAjer5jrPzI/AAAAAAAAAV0/xk3lWXsO2xQ/s1600/ILSVRC2012_val_00021791.PNG){: .align-center }
 
-> Un dulce perrito chihuahua utilizando un magnífico sombrero de ala ancha hecho a la medida.
+![GoogLeNet](https://2.bp.blogspot.com/-R7rgVNYKYM8/VAjmduy-VqI/AAAAAAAAAWU/TzKcFhfAfXc/s1600/ojbE4A2LeM.png)
 
-Existe un proyecto llamado ImageNet: un esfuerzo de investigación que provee un conjunto de imágenes a investigadores, facilitando el avance de la visión artificial.
+En abril de 2015, el equipo de Google, intentó aprovechar el increíble avance en la clasificación y detección de objetos en imágenes, y quiso llevarlo un paso más lejos: clasificación de vídeo.
 
-ImageNet organiza un desafío anual: *"ImageNet large-scale visual recognition challenge"*, o ILSVRC, el desafío más grande en el área, en donde se exponen los últimos avances.
+### Análisis de vídeo
 
-En el 2014, GoogLeNet ganó el primer lugar en las tareas de clasificación y detección en imágenes.
+Repasemos un poco: Ya sabemos que se pueden analizar imágenes; y un vídeo es una colección de imágenes. Entonces, ¿analizar un vídeo consiste en analizar todas las imágenes (cuadros) que lo componen? Sí. Pero no.
 
+Básicamente, esa solución es válida. Pero la cantidad de cuadros por segundo de un vídeo «normal» son 24. Un vídeo de apenas un minuto tendría que analizar 1440 imágenes. Y más del doble si se trata de un vídeo a 60 fps.
+
+En pocas palabras: analizar todos los cuadros sería mortal. Una pésima idea.
+
+Para reducir todo esa carga de trabajo computacional, se tienen que elegir los cuadros a analizar. Hay que escogerlos lo suficientemente espaciados para evitar comparar cuadros casi repetitivos, pero no tanto para perder demasiados cuadros importantes.
+
+https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html
+
+https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html
+
+https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html
+
+https://research.googleblog.com/2014/11/a-picture-is-worth-thousand-coherent.html
