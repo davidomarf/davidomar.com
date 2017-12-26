@@ -1,7 +1,7 @@
 ---
 title: "Construyendo un \"sastre\" de imágenes"
 categories:
-  - vision artificial
+  - vision-artificial
   - imagen
 tags:
   - proyectos
@@ -11,7 +11,7 @@ tags:
 #   caption: "Photo by [Jingyi Wang](https://unsplash.com/@jingyi) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
-Durante los próximos meses trataré de construir algo a lo que llamé "sastre" de imágenes, por no llamarlo "proyecto de *photo-stitching*".
+<!-- Durante los próximos meses trataré de construir algo a lo que llamé "sastre" de imágenes, por no llamarlo "proyecto de *photo-stitching*".
 
 ¿Por qué sastre? Bueno, tiene que ver con el significado de *stitch*: puntada de costura. Podría haberlo llamado costurero, pero al imaginar un costurero junto a un sastre, el sastre me inspira mayor talento. Y eso es lo que es: la mejor wea.
 
@@ -19,7 +19,16 @@ Para empezar, debo de familiarizarme con los fundamentos del photo stitching, y 
 
 Además, es la primera vez que escribiré sobre un proyecto **antes** de si quiera comenzar con la creación del repositorio, espero que el escribir una serie de publicaciones al respecto, me haga mantener un compromiso más fuerte hasta completarlo.
 
-Así que bien, demasiado cuchichear, vamos al grano.
+Así que bien, demasiado cuchichear, vamos al grano. -->
+
+blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla 
+
+blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla 
+
+
+blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla 
+
+blablabla blablabla blablabla blablabla blablabla blablabla 
 
 ## ¿Qué es el *photo-stitching*?
 

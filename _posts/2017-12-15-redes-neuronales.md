@@ -1,9 +1,9 @@
 ---
 title: "Sobre Better Call Saul, perros con sombrero, y redes neuronales"
 categories:
-  - inteligencia artificial
+  - inteligencia-artificial
 tags:
-  - redes neuronales
+  - redes-neuronales
   - introductorio
 header:
   overlay_image: images/redes-neuronales.jpg
