@@ -66,13 +66,13 @@ Son usos peculiares, pero sin duda, uno que me sorprendió conocer fue el de la 
 
 ## Visión por computadora
 
-También llamada visión artificial. Es la disciplina que pretende darle a la computadora la capacidad de generar información útil a partir de una imagen.
+También llamada visión artificial. Es la disciplina que pretende darle a la computadora la capacidad de generar información útil a partir de una imagen. [^fn3]
 
 Entre sus aplicaciones están el reconocimiento de rostros, reconocimiento de texto, y la tecnología de conducción autónoma.
 
-Dos de las tareas más importantes que realiza son la clasificación y la detección. Explicar cómo funcionan y en qué consiste cada una lo haré en otro momento, pues no es necesario para llegar al punto principal de este artículo: las redes neuronales. Además es bastante largo.
+Dos de las tareas más importantes que realiza son la clasificación y la detección. Explicar cómo funcionan y en qué consiste cada una lo haré en otro momento, pues no es necesario para llegar al punto principal de este artículo: las redes neuronales. Además es bastante largo. [^fn1]
 
-### El desafío ImageNet
+### El desafío ImageNet [^fn2]
 
 Existe un proyecto llamado ImageNet, un esfuerzo de investigación que pretende acelerar el desarrollo de la visión por computadora.
 
@@ -98,10 +98,10 @@ En pocas palabras: analizar todos los cuadros sería mortal. Una pésima idea.
 
 Para reducir todo esa carga de trabajo computacional, se tienen que elegir los cuadros a analizar. Hay que escogerlos lo suficientemente espaciados para evitar comparar cuadros casi repetitivos, pero no tanto para perder demasiados cuadros importantes.
 
-https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html
+## Referencias
 
-https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html
+[^fn1]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html){: target="_blank"} Yang, W., Tsai, M., Video Content Analysis team, & YouTube Creator team. (2015, October 08). Improving YouTube video thumbnails with deep neural nets. Retrieved December 26, 2017, from https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html
 
-https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html
+[^fn2]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html){: target="_blank"} Szegedy, C. (2014, September 05). Building a deeper understanding of images. Retrieved December 26, 2017, from https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html
 
-https://research.googleblog.com/2014/11/a-picture-is-worth-thousand-coherent.html
+[^fn3]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html){: target="_blank"} Toderici , G., & Vijayanarasimhan, S. (2015, April 08). Beyond Short Snippets: Deep Networks for Video Classification. Retrieved December 26, 2017, from https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html
