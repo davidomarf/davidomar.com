@@ -5,6 +5,8 @@ categories:
 tags:
   - datos
   - web
+header:
+  teaser: https://image.prntscr.com/image/9YNeryC4SVqD6QskkTB1XQ.png
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

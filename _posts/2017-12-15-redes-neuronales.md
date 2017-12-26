@@ -6,6 +6,7 @@ tags:
   - redes-neuronales
   - introductorio
 header:
+  teaser: https://i.ytimg.com/vi/Lr04qGKgrf4/maxresdefault.jpg
   overlay_image: images/redes-neuronales.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo by [Jingyi Wang](https://unsplash.com/@jingyi) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
@@ -100,8 +101,9 @@ Para reducir todo esa carga de trabajo computacional, se tienen que elegir los c
 
 ## Referencias
 
-[^fn1]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html){: target="_blank"} Yang, W., Tsai, M., Video Content Analysis team, & YouTube Creator team. (2015, October 08). Improving YouTube video thumbnails with deep neural nets. Retrieved December 26, 2017, from https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html
+[^fn1]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html){: target="_blank"} Yang, W., Tsai, M., Video Content Analysis team, & YouTube Creator team. (2015, October 08). *Improving YouTube video thumbnails with deep neural nets.* Retrieved December 26, 2017, from https://research.googleblog.com/2015/10/improving-youtube-video-thumbnails-with.html
 
-[^fn2]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html){: target="_blank"} Szegedy, C. (2014, September 05). Building a deeper understanding of images. Retrieved December 26, 2017, from https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html
+[^fn2]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html){: target="_blank"} Szegedy, C. (2014, September 05). *Building a deeper understanding of images.* Retrieved December 26, 2017, from https://research.googleblog.com/2014/09/building-deeper-understanding-of-images.html
 
-[^fn3]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html){: target="_blank"} Toderici , G., & Vijayanarasimhan, S. (2015, April 08). Beyond Short Snippets: Deep Networks for Video Classification. Retrieved December 26, 2017, from https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html
+[^fn3]: [<i class="fa fa-link" aria-hidden="true"></i>](https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html){: target="_blank"} Toderici , G., & Vijayanarasimhan, S. (2015, April 08). *Beyond Short Snippets: Deep Networks for Video Classification.* Retrieved December 26, 2017, from https://research.googleblog.com/2015/04/beyond-short-snippets-deep-networks-for.html
+
