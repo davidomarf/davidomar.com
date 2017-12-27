@@ -1,5 +1,5 @@
 ---
-title: "Construyendo un \"sastre\" de imágenes"
+title: "Construyendo mi propio sastre fotográfico"
 categories:
   - vision-artificial
   - imagen
@@ -12,24 +12,23 @@ header:
 #   caption: "Photo by [Jingyi Wang](https://unsplash.com/@jingyi) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
-<!-- Durante los próximos meses trataré de construir algo a lo que llamé "sastre" de imágenes, por no llamarlo "proyecto de *photo-stitching*".
+Era 24 de diciembre, el cielo comenzaba a aclararse, y hacía un frío entumecedor. Me vestí, até mis agujetas, y salí a correr.
 
-¿Por qué sastre? Bueno, tiene que ver con el significado de *stitch*: puntada de costura. Podría haberlo llamado costurero, pero al imaginar un costurero junto a un sastre, el sastre me inspira mayor talento. Y eso es lo que es: la mejor wea.
+Después de un rato, me topé con un paisaje que, si bien no es hermoso, me gustó bastante. Decidí tomar tres fotos, y seguí corriendo.
 
-Para empezar, debo de familiarizarme con los fundamentos del photo stitching, y qué mejor manera que escribiendo sobre ello.
+Después de un rato de haber regresado a mi casa, recibo una notificación de Google Photos diciéndome que mi "foto panorámica" estaba lista. Abro la notificación, y encuentro esto:
 
-Además, es la primera vez que escribiré sobre un proyecto **antes** de si quiera comenzar con la creación del repositorio, espero que el escribir una serie de publicaciones al respecto, me haga mantener un compromiso más fuerte hasta completarlo.
+![Paisaje](https://lh3.googleusercontent.com/n1ONDbfHb9hGoaOxRyhJdIsN9PBc8RnDvGzqxYpCdCzo2kSxkFatkRqxE12ou-bDPIcjg8vGp2GGQS9hiLu_ZqN35WrWDDlyaiIQcpelud4XE8vcGUQPqREAl4dlBnW_ixlQ-OrJnAeNqLn5F44QdptumUW3gh0y58Uk1Zo5bsjJfZIDzpi9rTFyFqKhpag-HymnSW98F8xzyIr7ILWVAYf4E2CgrF1JA3SpKwajCded_AomjliZMDHTTEPN-6zEMhP4m9kiEixVBGN92VsiaS6kRJoqdITwcpjOCNdHr0YDeOhpY0wSfWEs7d_ZHm-0FinZtAk-rPLKlyo30F9LRcJ6zF6xVUIdfsYhe-Xzv_X6E-wWPy2gSgrcc-QG_QNGBNIPdn_GWGhU7MEWH8JPomm0940Ww_QzsZHorNG5hODJjTWw4wD8Y5TyreQYul5YxCoZX6RN5TIh6ZZekl2OE1JKyP_cjw5Q-LLNiOdvuQr3p9qV62Fr9LvsISe9w9OVYyOgHILJcKGh2C_xtocgTKP_8hKIQkgw90y3s7MssGxbLOLDwycV-KUsyoE2o20jLa_85wbxhhC9bBrahnNcQR1YwhSWzX-tGSsfvqQ=w1440-h389-no)
 
-Así que bien, demasiado cuchichear, vamos al grano. -->
+Para empezar, no sabía que Google hacía eso de manera automática. Pasada la sorpresa inicial, se me ocurrió que sería buena idea construir mi propio «panoramizador» de imágenes.
 
-blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla 
+No tenía ni la más miníscula idea de cómo podía construirlo, pero estaba emocionado.
 
-blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla 
+---------
 
+Al día siguiente, y después de un par de búsquedas, encontré el concepto que buscaba: *«image stitching»*, o cosido de imagen.
 
-blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla blablabla 
-
-blablabla blablabla blablabla blablabla blablabla blablabla 
+En este artículo estará escrito todo el proceso desde el estado del arte, hasta el algoritmo para coser imágenes que yo implementaré. Será bastante extenso, pero estará bastante bien auto-contenido. Lo suficiente para que, si lo decides, puedas escribir tu propio algoritmo en el lenguaje que quieras.
 
 ## ¿Qué es el *photo-stitching*?
 
@@ -47,11 +46,21 @@ Consiste en encontrar la función que alínea el contenido de una imagen con el 
 
 Desde un punto de vista más técnico, el registro de imagen es una función que recibe como entrada dos imágenes diferentes, y produce como salida, una transformación geométrica.
 
+Al coser imágenes, se genera un «área de traslape». Idealmente, las secciones de las múltiples fotos en una misma área de traslape, es la misma.
+
+Pero en condiciones no ideales, existen «discrepancias»: diferencias causadas por movimiento, profundidad de campo, o iluminación.
+
+La transformación geométrica producidadebe ser tal, que la suma total de diferencias en el área de traslape, sea la mínima.
+
 ### Calibración
 
 Es tal vez el paso más *truculento* de todos en cuestión de intuición.
 
-El objetivo es reducir las discrepancias en todas las áreas de traslape, encontrando los parámetros de la cámara como distancia focal, relación de aspecto.[^fn1]
+La calibración **extrae** los parámetros de la cámara con la que las fotografías fueron capturadas, como la distancia focal o la relación de aspecto.
+
+Una vez conocidos los parámetros, se pueden detectar discrepancias como distorsiones, diferencias de exposición, o aberraciones cromáticas.
+
+[^fn1]
 [^fn2]
 [^fn3]
 [^fn4]
@@ -64,7 +73,15 @@ El objetivo es reducir las discrepancias en todas las áreas de traslape, encont
 
 El paso final, y tal vez el único en el que pensé al momento de idear el proyecto.
 
-Aquí es donde se mezclan las imágenes de una manera dulce y suave como la mantequilla, para evitar que queden rastros de la operación en los puntos en donde se unieron las imágenes.
+Aquí es donde se asegura que las imágenes se hayan «cosido» de una manera dulce y suave como la mantequilla, para evitar que se vean las «costuras».
+
+Esto implica corregir colores, compensar movimiento, y eliminar fantasmas.
+
+---------
+
+Tal vez parezca que todos los pasos hacen lo mismo. Pero, en cuanto comience con la explicación matemática, y después, con la implementación programática, se notarán las diferencias entre cada uno.
+
+Y lo más increíble es que todo este artículo no hubiera existido de no ser por esa carrera matutina.
 
 ## Referencias
 
@@ -80,6 +97,6 @@ Aquí es donde se mezclan las imágenes de una manera dulce y suave como la mant
 
 [^fn6]: [<i class="fa fa-link" aria-hidden="true"></i>](https://en.wikipedia.org/w/index.php?title=Image_stitching&oldid=809039739){: target="_blank"} Image stitching. (2017, November 6). In Wikipedia, The Free Encyclopedia. Retrieved 20:00, December 26, 2017, from https://en.wikipedia.org/w/index.php?title=Image_stitching&oldid=809039739
 
-[^fn7]: [<i class="fa fa-link" aria-hidden="true"></i>](http://ksimek.github.io/2013/08/13/intrinsic/){: target="_blank"} Simek, K. (2013, August 13). Sightations, A Computer Vision Blog. Retrieved December 26, 2017, from http://ksimek.github.io/2013/08/13/intrinsic/
+[^fn7]: [<i class="fa fa-link" aria-hidden="true"></i>](http://ksimek.github.io/2012/08/14/decompose/){: target="_blank"} Simek, K. (2013, June 02). Dissecting the Camera Matrix. Retrieved December 26, 2017, from http://ksimek.github.io/2013/08/13/intrinsic/
 
 [^fn8]: [<i class="fa fa-link" aria-hidden="true"></i>](https://hypjudy.github.io/2017/05/10/panorama-image-stitching/){: target="_blank"}HYPJUDY. (2017, May 10). [CVPR] Panorama Image Stitching. Retrieved December 26, 2017, from https://hypjudy.github.io/2017/05/10/panorama-image-stitching/
