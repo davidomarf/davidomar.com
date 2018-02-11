@@ -11,7 +11,7 @@
   margin-bottom: 1em;
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
-
+  padding-right: 25px;
   @include breakpoint(max-width $large) {
     /* fix z-index order of follow links */
     position: relative;
@@ -136,7 +136,7 @@
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
-  padding-right: 25px;
+  // padding-right: 40px;
   line-height: 1;
 
   @include breakpoint($large) {

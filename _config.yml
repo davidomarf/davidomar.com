@@ -84,11 +84,11 @@ analytics:
 # Site Author
 author:
   name             : "David Omar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Desarrollador con cierta fascinación por ramas de las matemáticas que no entiende, el frío, el café, y la música de abuelitos."
   location         : "México"
   email            :
-  uri              : "http://davidomar.me"
+  uri              : # "http://davidomar.me"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -96,16 +96,16 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/DavidOmarF"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "davidomarfch" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "7407011/david-omar-flores-chávez" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          :
