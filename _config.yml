@@ -13,7 +13,7 @@ title                    : "David Omar"
 title_separator          : "-"
 name                     : "David Omar"
 description              : "Notas"
-url                      : "https://davidomar.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://davidomarf.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DavidOmarF/davidomarf.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -87,8 +87,8 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "México"
-  email            : 
-  uri              : # "http://davidomar.me"
+  email            :
+  uri              : "http://davidomar.me"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -257,7 +257,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true # true
+      comments: # true
       share: false
       related: true
       toc: true
