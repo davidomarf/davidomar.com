@@ -20,7 +20,7 @@ teaser                   : "/images/500x300.png" # path of fallback teaser image
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -33,12 +33,12 @@ comments:
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
-  commitMessage          : "Agregar comentario" # "New comment."
+  commitMessage          : # "New comment."
   filename               : # comment-{@timestamp}
   format                 : # "yml"
   moderation             : # true
   path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'message']
+  requiredFields         : # ['name', 'email', 'message']
   transforms:
     email                : # "md5"
   generatedFields:
