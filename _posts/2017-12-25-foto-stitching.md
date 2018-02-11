@@ -5,11 +5,6 @@ categories:
   - imagen
 tags:
   - proyectos
-header:
-    teaser: https://upload.wikimedia.org/wikipedia/commons/a/a0/Rochester_NY.jpg?1514325636513
-#   overlay_image: images/redes-neuronales.jpg
-#   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-#   caption: "Photo by [Jingyi Wang](https://unsplash.com/@jingyi) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 Era 24 de diciembre, el cielo comenzaba a aclararse, y hacía un frío entumecedor. Me vestí, até mis agujetas, y salí a correr.

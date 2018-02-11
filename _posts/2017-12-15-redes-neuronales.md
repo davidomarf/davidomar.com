@@ -5,11 +5,6 @@ categories:
 tags:
   - redes-neuronales
   - introductorio
-header:
-  teaser: https://i.ytimg.com/vi/Lr04qGKgrf4/maxresdefault.jpg
-  overlay_image: images/redes-neuronales.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "Photo by [Jingyi Wang](https://unsplash.com/@jingyi) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 Este es un artículo re-escrito después de haberlo perdido en un arranque fúrico e inconsciente. ¿Saben sobre ese sentimiento cuando haces algo por segunda vez y tienes la sensación de que la primer versión fue mucho mejor? Bueno, es eso que siento justo ahora.

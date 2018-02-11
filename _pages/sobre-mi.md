@@ -1,13 +1,7 @@
 ---
 layout: archive
-permalink: /sobre-mi/
 title: "Sobre mí"
-header:
-  overlay_image: images/unsplash-image-1.jpg
-  # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "Créditos: [**Unsplash**](https://unsplash.com)"
-  cta_label: "More Info"
-  cta_url: "https://unsplash.com"
+permalink: /sobre-mi/
 ---
 
 <script>
