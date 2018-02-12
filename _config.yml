@@ -13,7 +13,7 @@ title                    : "David Omar"
 title_separator          : "-"
 name                     : "David Omar"
 description              : "Notas"
-url                      : "https://davidomarf.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://davidomar.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DavidOmarF/davidomarf.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -88,7 +88,7 @@ author:
   bio              : "Desarrollador con cierta fascinación por ramas de las matemáticas que no entiende, el frío, el café, y la música de abuelitos."
   location         : "México"
   email            :
-  uri              : # "http://davidomar.me"
+  uri              : # "https://davidomar.me"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -176,7 +176,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -233,7 +233,7 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
