@@ -14,7 +14,7 @@ $indent-var                   : 1.3em !default;
 
 /* system typefaces */
 $serif                        : 'Roboto Mono', Georgia, Times, serif !default;
-$sans-serif                   : 'Muli', 'Nunito', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif                   : 'Muli', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace                    : Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -135,3 +135,27 @@ $navicon-width                : 1.5rem !default;
 $navicon-height               : 0.25rem !default;
 $global-transition            : all 0.2s ease-in-out !default;
 $intro-transition             : intro 0.3s both !default;
+
+/*
+  Serving fonts locally
+  =========================================================================== */
+
+/* muli-300 - latin */
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Muli Light'), local('Muli-Light'),
+        url('../fonts/muli-v11-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/muli-v11-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-mono-300 - latin */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Mono Light'), local('RobotoMono-Light'),
+        url('../fonts/roboto-mono-v5-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-mono-v5-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
