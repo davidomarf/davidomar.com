@@ -15,9 +15,7 @@ Mi primera solución, fue utilizar `pd.plot.hexbin()`. Pero en la gráfica no qu
 
 Después de buscar un poco, encontré [Basemap Toolkit](https://matplotlib.org/basemap/). Es una librería de Python que permite graficar información en mapas 2D. Al principio, comencé a usarla ciegamente, llegando a resultados feos como ...
 
-<img class="aligncenter wp-image-41 size-full" src="http://davidomar.me/wp-content/uploads/2017/09/hexbin-plot-as-map-2.png" alt="" width="788" height="394" />
-
-Después de ciertos ajustes -que me tomaron más de un par de horas, y después, días-, llegué a graficar algo así:
+Después de ciertos ajustes —que me tomaron más de un par de horas, y después, días—, llegué a graficar algo así:
 
 [Incrustar imágenes de las gráficas ya terminadas]
 
