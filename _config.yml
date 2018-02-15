@@ -15,7 +15,7 @@ name                     : "David Omar"
 description              : "Notas"
 url                      : "https://davidomar.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "DavidOmarF/davidomar" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "davidomarf/davidomar" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -36,7 +36,7 @@ staticman:
   commitMessage          : "Comentar" # "New comment."
   filename               : # comment-{@timestamp}
   format                 : # "yml"
-  moderation             : false # true
+  moderation             : # true
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
