@@ -13,7 +13,7 @@ Después de un rato, me topé con un paisaje que, si bien no es hermoso, me gust
 
 Después de un rato de haber regresado a mi casa, recibo una notificación de Google Photos diciéndome que mi "foto panorámica" estaba lista. Abro la notificación, y encuentro esto:
 
-<!-- ![Paisaje](https://lh3.googleusercontent.com/n1ONDbfHb9hGoaOxRyhJdIsN9PBc8RnDvGzqxYpCdCzo2kSxkFatkRqxE12ou-bDPIcjg8vGp2GGQS9hiLu_ZqN35WrWDDlyaiIQcpelud4XE8vcGUQPqREAl4dlBnW_ixlQ-OrJnAeNqLn5F44QdptumUW3gh0y58Uk1Zo5bsjJfZIDzpi9rTFyFqKhpag-HymnSW98F8xzyIr7ILWVAYf4E2CgrF1JA3SpKwajCded_AomjliZMDHTTEPN-6zEMhP4m9kiEixVBGN92VsiaS6kRJoqdITwcpjOCNdHr0YDeOhpY0wSfWEs7d_ZHm-0FinZtAk-rPLKlyo30F9LRcJ6zF6xVUIdfsYhe-Xzv_X6E-wWPy2gSgrcc-QG_QNGBNIPdn_GWGhU7MEWH8JPomm0940Ww_QzsZHorNG5hODJjTWw4wD8Y5TyreQYul5YxCoZX6RN5TIh6ZZekl2OE1JKyP_cjw5Q-LLNiOdvuQr3p9qV62Fr9LvsISe9w9OVYyOgHILJcKGh2C_xtocgTKP_8hKIQkgw90y3s7MssGxbLOLDwycV-KUsyoE2o20jLa_85wbxhhC9bBrahnNcQR1YwhSWzX-tGSsfvqQ=w1440-h389-no) -->
+![Paisaje](/images/posts/foto-stitching/san-rafael-tlalmanalco.jpg)
 
 Para empezar, no sabía que Google hacía eso de manera automática. Pasada la sorpresa inicial, se me ocurrió que sería buena idea construir mi propio «panoramizador» de imágenes.
 
@@ -29,7 +29,7 @@ En este artículo estará escrito todo el proceso desde el estado del arte, hast
 
 Es un proceso en el que se combinan diferentes imágenes con áreas traslapadas, para generar una imagen de mayor dimensión.
 
-<!-- ![Ejemplo de photo-stitching](/images/posts/foto-stitching/foto-stitching.jpg) -->
+![Ejemplo de photo-stitching](/images/posts/foto-stitching/foto-stitching.jpg)
 
 Sus usos pueden ser la fotografía médica, la cartografía, o la estabilización de vídeo.
 
