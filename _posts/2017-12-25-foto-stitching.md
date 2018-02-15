@@ -13,7 +13,7 @@ Después de un rato, me topé con un paisaje que, si bien no es hermoso, me gust
 
 Después de un rato de haber regresado a mi casa, recibo una notificación de Google Photos diciéndome que mi "foto panorámica" estaba lista. Abro la notificación, y encuentro esto:
 
-![Paisaje](https://lh3.googleusercontent.com/n1ONDbfHb9hGoaOxRyhJdIsN9PBc8RnDvGzqxYpCdCzo2kSxkFatkRqxE12ou-bDPIcjg8vGp2GGQS9hiLu_ZqN35WrWDDlyaiIQcpelud4XE8vcGUQPqREAl4dlBnW_ixlQ-OrJnAeNqLn5F44QdptumUW3gh0y58Uk1Zo5bsjJfZIDzpi9rTFyFqKhpag-HymnSW98F8xzyIr7ILWVAYf4E2CgrF1JA3SpKwajCded_AomjliZMDHTTEPN-6zEMhP4m9kiEixVBGN92VsiaS6kRJoqdITwcpjOCNdHr0YDeOhpY0wSfWEs7d_ZHm-0FinZtAk-rPLKlyo30F9LRcJ6zF6xVUIdfsYhe-Xzv_X6E-wWPy2gSgrcc-QG_QNGBNIPdn_GWGhU7MEWH8JPomm0940Ww_QzsZHorNG5hODJjTWw4wD8Y5TyreQYul5YxCoZX6RN5TIh6ZZekl2OE1JKyP_cjw5Q-LLNiOdvuQr3p9qV62Fr9LvsISe9w9OVYyOgHILJcKGh2C_xtocgTKP_8hKIQkgw90y3s7MssGxbLOLDwycV-KUsyoE2o20jLa_85wbxhhC9bBrahnNcQR1YwhSWzX-tGSsfvqQ=w1440-h389-no)
+<!-- ![Paisaje](https://lh3.googleusercontent.com/n1ONDbfHb9hGoaOxRyhJdIsN9PBc8RnDvGzqxYpCdCzo2kSxkFatkRqxE12ou-bDPIcjg8vGp2GGQS9hiLu_ZqN35WrWDDlyaiIQcpelud4XE8vcGUQPqREAl4dlBnW_ixlQ-OrJnAeNqLn5F44QdptumUW3gh0y58Uk1Zo5bsjJfZIDzpi9rTFyFqKhpag-HymnSW98F8xzyIr7ILWVAYf4E2CgrF1JA3SpKwajCded_AomjliZMDHTTEPN-6zEMhP4m9kiEixVBGN92VsiaS6kRJoqdITwcpjOCNdHr0YDeOhpY0wSfWEs7d_ZHm-0FinZtAk-rPLKlyo30F9LRcJ6zF6xVUIdfsYhe-Xzv_X6E-wWPy2gSgrcc-QG_QNGBNIPdn_GWGhU7MEWH8JPomm0940Ww_QzsZHorNG5hODJjTWw4wD8Y5TyreQYul5YxCoZX6RN5TIh6ZZekl2OE1JKyP_cjw5Q-LLNiOdvuQr3p9qV62Fr9LvsISe9w9OVYyOgHILJcKGh2C_xtocgTKP_8hKIQkgw90y3s7MssGxbLOLDwycV-KUsyoE2o20jLa_85wbxhhC9bBrahnNcQR1YwhSWzX-tGSsfvqQ=w1440-h389-no) -->
 
 Para empezar, no sabía que Google hacía eso de manera automática. Pasada la sorpresa inicial, se me ocurrió que sería buena idea construir mi propio «panoramizador» de imágenes.
 
@@ -29,7 +29,7 @@ En este artículo estará escrito todo el proceso desde el estado del arte, hast
 
 Es un proceso en el que se combinan diferentes imágenes con áreas traslapadas, para generar una imagen de mayor dimensión.
 
-![Ejemplo de photo-stitching](http://www.arcsoft.com/resource/image/technology/stitching/selfie_3.jpg)
+<!-- ![Ejemplo de photo-stitching](/images/posts/foto-stitching/foto-stitching.jpg) -->
 
 Sus usos pueden ser la fotografía médica, la cartografía, o la estabilización de vídeo.
 
@@ -79,7 +79,7 @@ Tal vez parezca que todos los pasos hacen lo mismo. Pero, en cuanto comience con
 Y lo más increíble es que todo este artículo no hubiera existido de no ser por esa carrera matutina.
 
 ## Referencias
-
+<!-- 
 [^fn1]: [<i class="fa fa-link" aria-hidden="true"></i>](http://matthewalunbrown.com/papers/ijcv2007.pdf){: target="_blank"} Brown, M., & Lowe, D. G. (2007). Automatic panoramic image stitching using invariant features. International journal of computer vision, 74(1), 59-73.
 
 [^fn2]: [<i class="fa fa-link" aria-hidden="true"></i>](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.6746&rep=rep1&type=pdf){: target="_blank"} Rankov, V., Locke, R. J., Edens, R. J., Barber, P. R., & Vojnovic, B. (2005, March). An algorithm for image stitching and blending. In Proceedings of SPIE (Vol. 5701, pp. 190-199).
@@ -94,4 +94,4 @@ Y lo más increíble es que todo este artículo no hubiera existido de no ser po
 
 [^fn7]: [<i class="fa fa-link" aria-hidden="true"></i>](http://ksimek.github.io/2012/08/14/decompose/){: target="_blank"} Simek, K. (2013, June 02). Dissecting the Camera Matrix. Retrieved December 26, 2017, from http://ksimek.github.io/2013/08/13/intrinsic/
 
-[^fn8]: [<i class="fa fa-link" aria-hidden="true"></i>](https://hypjudy.github.io/2017/05/10/panorama-image-stitching/){: target="_blank"}HYPJUDY. (2017, May 10). [CVPR] Panorama Image Stitching. Retrieved December 26, 2017, from https://hypjudy.github.io/2017/05/10/panorama-image-stitching/
+[^fn8]: [<i class="fa fa-link" aria-hidden="true"></i>](https://hypjudy.github.io/2017/05/10/panorama-image-stitching/){: target="_blank"}HYPJUDY. (2017, May 10). [CVPR] Panorama Image Stitching. Retrieved December 26, 2017, from https://hypjudy.github.io/2017/05/10/panorama-image-stitching/ -->
