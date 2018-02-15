@@ -79,7 +79,7 @@ Tal vez parezca que todos los pasos hacen lo mismo. Pero, en cuanto comience con
 Y lo más increíble es que todo este artículo no hubiera existido de no ser por esa carrera matutina.
 
 ## Referencias
-<!-- 
+
 [^fn1]: [<i class="fa fa-link" aria-hidden="true"></i>](http://matthewalunbrown.com/papers/ijcv2007.pdf){: target="_blank"} Brown, M., & Lowe, D. G. (2007). Automatic panoramic image stitching using invariant features. International journal of computer vision, 74(1), 59-73.
 
 [^fn2]: [<i class="fa fa-link" aria-hidden="true"></i>](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.6746&rep=rep1&type=pdf){: target="_blank"} Rankov, V., Locke, R. J., Edens, R. J., Barber, P. R., & Vojnovic, B. (2005, March). An algorithm for image stitching and blending. In Proceedings of SPIE (Vol. 5701, pp. 190-199).
@@ -94,4 +94,4 @@ Y lo más increíble es que todo este artículo no hubiera existido de no ser po
 
 [^fn7]: [<i class="fa fa-link" aria-hidden="true"></i>](http://ksimek.github.io/2012/08/14/decompose/){: target="_blank"} Simek, K. (2013, June 02). Dissecting the Camera Matrix. Retrieved December 26, 2017, from http://ksimek.github.io/2013/08/13/intrinsic/
 
-[^fn8]: [<i class="fa fa-link" aria-hidden="true"></i>](https://hypjudy.github.io/2017/05/10/panorama-image-stitching/){: target="_blank"}HYPJUDY. (2017, May 10). [CVPR] Panorama Image Stitching. Retrieved December 26, 2017, from https://hypjudy.github.io/2017/05/10/panorama-image-stitching/ -->
+[^fn8]: [<i class="fa fa-link" aria-hidden="true"></i>](https://hypjudy.github.io/2017/05/10/panorama-image-stitching/){: target="_blank"}HYPJUDY. (2017, May 10). [CVPR] Panorama Image Stitching. Retrieved December 26, 2017, from https://hypjudy.github.io/2017/05/10/panorama-image-stitching/
