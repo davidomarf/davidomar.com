@@ -27,6 +27,10 @@
       <noscript>Please enable JavaScript to view the <a href="https://plus.google.com/">comments powered by Google+.</a></noscript>-->
     {% when "staticman_v2" %}
       <section id="static-comments">
+        {% if site.repository %}
+        <p>hola</p>
+        {% if site.staticman.branch %}
+        <p>hola2</p>
         {% if site.repository and site.staticman.branch %}
           <!-- Start static comments -->
           <div class="js-comments">
