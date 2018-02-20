@@ -5,6 +5,7 @@ categories:
 tags:
   - datos
   - web
+hidden: true
 ---
 
 La semana pasada salí de una «crisis mental» en la que perdí casi toda motivación, interés, y entusiasmo por cualquier cosa.

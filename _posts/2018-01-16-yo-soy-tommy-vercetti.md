@@ -5,5 +5,6 @@ categories:
 tags:
   - inteligencia artificial
   - web
+hidden: true
 ---
 Hola, jaja.

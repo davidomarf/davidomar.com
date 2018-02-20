@@ -5,6 +5,7 @@ categories:
 tags:
   - inteligencia artificial
   - web
+hidden: true  
 ---
 
 // Escribir introducción toa chula toa rechulona
