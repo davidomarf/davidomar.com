@@ -10,8 +10,6 @@ hidden: true
 
 // Escribir introducción toa chula toa rechulona
 
-// Continuar introducción toa chula toa rechulona
-
 ## Prefacio
 
 Muchos de los considerados pioneros de la computación —Turing, Von Neuman, Wiener, y otros—, quisieron utilizar los sistemas naturales como metáfora [pa qué no sé jaja].
