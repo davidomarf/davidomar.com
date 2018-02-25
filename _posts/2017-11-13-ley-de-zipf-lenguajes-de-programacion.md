@@ -14,13 +14,13 @@ tags:
 
 Hace un par de años me topé con un vídeo de VSauce en el que trata el tema de [«El misterio de Zipf»](https://www.youtube.com/watch?v=fCn8zs912OE). Durante todo ese tiempo, hasta esta madrugada de noviembre en la que mezclaba mi quinta taza de café, había permanecido en mi cabeza como algo recurrente pero irrelevante.
 
-Apareció una pequeña idea, y creo que me siento preparado para llevarla a cabo: tratar de visualizar la ley de Zipf en códigos fuente. Incluso, más allá de eso, tratar de visualizar la propensión de algunos lenguajes a *cumplir* con la ley de Zipf.
+Y es porque tuve la idea de querer de visualizar la ley de Zipf en códigos fuente. Incluso, más allá de eso, tratar de visualizar la propensión de algunos lenguajes a *cumplir* con la ley de Zipf.
 
 O si el número de colaboradores, número de estrellas, *forkeos*, y más, tiene relación con ello.
 
 Este pequeño proyecto estará compuesto de tres fases *básicas*:
 
-* el minado de datos en GitHub,
+* el minado de los archivos,
 * el procesamiento de los archivos,
 * la visualización de los datos.
 
@@ -28,9 +28,11 @@ Este pequeño proyecto estará compuesto de tres fases *básicas*:
 
 La Ley de Zipf fue popularizada por George Zipf, lingüista en la Universidad de Harvard. Ésta, refleja la manera en que se distribuyen las ocurrencias de distintos «eventos».
 
-Por ejemplo, en el uso del lenguaje natural, la palabra **más utilizada**, se utiliza dos veces más que la segunda más utilizada. Y tres veces más, que la tercera. Y cuatro veces más que la cuarta...
+Por ejemplo, en el uso del lenguaje natural, la palabra **más utilizada** se utiliza dos veces más que la segunda más utilizada. Y tres veces más, que la tercera. Y cuatro veces más que la cuarta...
 
-En general, la n-ésima palabra más utilizada en cualquier lenguaje, se utiliza aproximadamente (1/n) veces, las veces que se utiliza la palabra más utilizada:
+![Distribución de Zipf](/images/posts/zipf/bars.svg)
+
+En general, la n-ésima palabra más utilizada en cualquier lenguaje, se utiliza aproximadamente n veces menos que la palabra más utilizada:
 
 $$
 \begin{align*}
@@ -39,13 +41,22 @@ $$
 $$
 
 donde $$P_n$$ es la frecuencia de la n-ésima palabra más frecuente, y
-$$a$$, un número real positivo ligeramente mayor a 1.
+$$a$$ (que por ahora ignoraremos), un número real positivo ligeramente mayor a 1.
 
 ## Minado de datos
 
-Lo primero es construir una araña web. Yo decidí construirla en Python, por ser un lenguaje con el que tengo una mediana familiaridad, en el que nunca he programado algo así.
+Lo primero es construir una araña web. Yo decidí construirla en Python, por ser un lenguaje con el que tengo una mediana familiaridad en el que nunca he programado algo así.
 
-Después, crearemos un conjunto de datos, que contendrá el lenguaje de programación, el repositorio al que pertenece, el número de colaboradores, la fecha de creación, la fecha de la última actualización, número de estrellas y *forkeos* del repositorio, y, **lo más importante**: las ocurrencias de cada palabra clave.
+Después, se debe crear un conjunto de datos. Éste contendrá:
+
+- el lenguaje de programación, 
+- el repositorio al que pertenece,
+- el número de colaboradores,
+- la fecha de creación,
+- la fecha de la última actualización, 
+- número de estrellas,
+- *forkeos* del repositorio, y, 
+- **lo más importante**: las ocurrencias de cada palabra clave.
 
 Por ahora, la propiedad del número de ocurrencias quedará pendiente, ya que ésta la generaré en pasos siguientes.
 
