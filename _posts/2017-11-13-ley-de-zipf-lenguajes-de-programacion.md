@@ -12,7 +12,7 @@ tags:
 
 ## Prefacio
 
-Hace un par de años me topé con un vídeo de VSauce en el que trata el tema de [«El misterio de Zipf»](https://www.youtube.com/watch?v=fCn8zs912OE). Durante todo ese tiempo, hasta esta madrugada de noviembre en la que mezclaba mi quinta taza de café, había permanecido en mi cabeza como algo recurrente pero irrelevante.
+Hace un par de años me topé con un vídeo de VSauce en el que trata el tema de [«El misterio de Zipf»](https://www.youtube.com/watch?v=fCn8zs912OE){:target='_blank'}. Durante todo ese tiempo, hasta esta madrugada de noviembre en la que mezclaba mi quinta taza de café, había permanecido en mi cabeza como algo recurrente pero irrelevante.
 
 Y es porque tuve la idea de querer de visualizar la ley de Zipf en códigos fuente. Incluso, más allá de eso, tratar de visualizar la propensión de algunos lenguajes a *cumplir* con la ley de Zipf.
 
@@ -26,22 +26,45 @@ Este pequeño proyecto estará compuesto de tres fases *básicas*:
 
 ## Introducción
 
-La Ley de Zipf fue popularizada por George Zipf, lingüista en la Universidad de Harvard. Ésta, refleja la manera en que se distribuyen las ocurrencias de distintos «eventos».
+La Ley de Zipf fue popularizada por George Zipf, lingüista en la Universidad de Harvard. Ésta refleja la manera en que se distribuye la frecuencia de distintos «eventos» en la naturaleza.
 
-Por ejemplo, en el uso del lenguaje natural, la palabra **más utilizada** se utiliza dos veces más que la segunda más utilizada. Y tres veces más, que la tercera. Y cuatro veces más que la cuarta...
+Para familiarizarnos un poco, digamos que existe un conjunto de $$n$$ eventos. Cada evento se repite cierta frecuencia $$P$$, y posee un rango $$k$$ que va en función de $$P$$: El de mayor frecuencia tiene rango 1, y el de menor frecuencia tiene rango n.
 
-![Distribución de Zipf](/images/posts/zipf/bars.svg)
-
-En general, la n-ésima palabra más utilizada en cualquier lenguaje, se utiliza aproximadamente n veces menos que la palabra más utilizada:
+Y lo interesante de la Ley de Zipf, es que propone que la frecuencia de cualquier evento, es inversamente proporcional a su rango. Específicamente:
 
 $$
 \begin{align*}
-  P_n \approx 1 / n^a
+  P_k \approx P_1 / k
 \end{align*}
 $$
 
-donde $$P_n$$ es la frecuencia de la n-ésima palabra más frecuente, y
-$$a$$ (que por ahora ignoraremos), un número real positivo ligeramente mayor a 1.
+donde $$P_k$$ es la frecuencia del evento en el rango $$k$$, y $$P_1$$ la frecuencia del evento en el rango 1.
+
+![Distribución de Zipf](/images/posts/zipf/distribucion.svg)
+
+Lo más sorprendente de la distribución de Zipf, es que no representa el comportamiento de uno o dos fenómenos, sino de **cientos**.
+
+Por ejemplo, en la frecuencia de uso de las palabras de **cualquier lenguaje**. Incluso de aquellos que aún no logran descifrarse.
+
+O la población de las ciudades, el tráfico de los sitios web, las magnitudes de los sismos, los ingredientes usados en libros de cocina, el diámetro de los cráteres de la luna, o —entre incontables más— el número de citas que reciben los artículos académicos.
+
+Visualizar la distribución de Zipf se vuelve un poco difícil cuando el número de eventos es grande. Para mejorar su visualización, suele graficarse en una escala logarítmica.
+
+![Distribución de Zipf](/images/posts/zipf/escalas.svg)
+
+Entonces, ¿pueden los lenguajes de programación, al igual que los lenguajes naturales, comportarse de una manera que *cumpla* con la Ley de Zipf?
+
+Esperadamente, ya se han realizado trabajos que abordan esa pregunta. 
+
+[Abhinav Tushar](https://github.com/lepisma){:target='_blank'} en su artículo [Computer Programs and Zipf's law](https://lepisma.github.io/2015/01/14/computer-programs-and-zipf-law/){:target='_blank'} realiza una exploración al código fuente de Linux, FreeBSD, Bootstrap, y otros proyectos, tratando de visualizar su distribución de palabras reservadas.
+
+[Sam Radhakrishnan](https://github.com/sam09){:target='_blank'} y otros colaboradores [analizaron Flask para tratar de verificar la Ley de Zipf en Python](https://github.com/sam09/zipf){:target='_blank'}.
+
+En este proyecto, se analizarán son los 5 repositorios con mayor número de estrellas, desarrollados en cada uno de los 10 lenguajes más populares en GitHub, según el reporte [The State of the Octoverse 2017](https://octoverse.github.com){:target='_blank'}.
+
+Tales lenguajes son **JavaScript, Python, Java, Ruby, PHP, C++, CSS, C#, Go, y C.**
+
+Pero CSS, por no ser lenguaje de programación —y por que lidiar con las palabras reservadas sería un tormento—, lo voy a descartar, dando lugar a **TypeScript**.
 
 ## Minado de datos
 
@@ -73,7 +96,7 @@ Estaba comenzando a morir pensando cómo podía obtener una lista de repositorio
 
 Los resultados de una búsqueda varían cada vez que sea hace una consulta, así que definitivamente no era una opción.
 
-Después, encontré la API de GitHub. Específicamente [List all public repositories](https://developer.github.com/v3/repos/#list-all-public-repositories).
+Después, encontré la API de GitHub. Específicamente [List all public repositories](https://developer.github.com/v3/repos/#list-all-public-repositories){:target='_blank'}.
 
 Así que, escribo un programa para consultar la API recurrentemente, y me dedico a otras cosas mientras lo dejo ejecutando.
 
@@ -139,8 +162,8 @@ def make_trie(words):
 
     return root
 ```
-**Función robada de [senderle](https://stackoverflow.com/a/11016430)
- 
+**Función robada de [senderle ](https://stackoverflow.com/a/11016430){:target='_blank'}
+
 Y después, sólo actualizaría los valores de mi objeto `kws` usando esa función:
 
 ```python
@@ -164,3 +187,5 @@ kws.py = make_trie(kws.py)
               "_end_": "_end_"
 }}}}}}}
 ```
+
+
