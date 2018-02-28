@@ -1,7 +1,7 @@
 ---
 title: "Añadir gráficos a LaTeX creados con R automáticamente"
 categories:
-  - escritura
+  - computacion
 tags:
   - latex
 ---

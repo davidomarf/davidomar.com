@@ -1,10 +1,9 @@
 ---
 title: "Aprender un nuevo lenguaje de programación: ¿cómo, cuándo y por qué?"
 categories:
-  - Blog
+  - programación
 tags:
-  - datos
-  - web
+  - lenguaje
 hidden: true
 ---
 

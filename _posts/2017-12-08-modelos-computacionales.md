@@ -1,10 +1,11 @@
 ---
 title: "Modelos computacionales, Máquinas de Turing, y Computación Cuántica"
 categories:
-  - Blog
+  - teoría computacional
 tags:
-  - datos
-  - web
+  - modelo computacional
+  - máquina de Turing
+  - computación cuántica
 hidden: true
 ---
 

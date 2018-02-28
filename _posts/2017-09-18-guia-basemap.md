@@ -1,10 +1,12 @@
 ---
 title: "Guía: Basemap para graficar mapas con Python"
 categories:
-  - Blog
+  - visualización de datos
 tags:
+  - visualización
   - datos
-  - web
+  - python
+  - datos geográficos
 hidden: true
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Algoritmos genéticos: de cero a héroe"
 categories:
-  - Blog
+  - algoritmo
+  - plan de aprendizaje
 tags:
-  - inteligencia artificial
-  - web
+  - algoritmo genético
 hidden: true  
 ---
 

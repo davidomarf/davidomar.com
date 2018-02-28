@@ -1,9 +1,9 @@
 ---
 title: "Crear una aplicación web con Node.js en un repositorio de GitHub"
 categories:
-  - Blog
+  - computación
 tags:
-  - datos
+  - aplicación web
   - web
 ---
 

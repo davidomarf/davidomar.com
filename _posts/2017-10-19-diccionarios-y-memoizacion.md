@@ -1,10 +1,12 @@
 ---
 title: "Diccionarios, recursión, y Fibonacci"
 categories:
-  - Blog
+  - programación
+  - algoritmo
 tags:
-  - datos
-  - web
+  - recursión
+  - memoización
+  - recursion
 ---
 
 Un arreglo asociativo -o más comúnmente llamado mapa o diccionario-, es un tipo de dato abstracto.

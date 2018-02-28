@@ -1,11 +1,11 @@
 ---
 title: "Simulación del molino de Lorenz"
 categories:
-  - Blog
+  - física
 tags:
   - caos
   - simulación
-hidden: true
+hidden: false
 ---
 
 // Contenido
