@@ -1,9 +1,6 @@
 ---
 title: "Does it close?"
 excerpt: "Aplicación web (y, próximamente móvil) para estudiantes y profesionales de la topografía"
-# header:
-  # image: images/proyectos.jpg
-  # teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Rol"
     text: "<ul><li>Full stack developer</li><li>Software engineer</li></ul>"

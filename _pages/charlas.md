@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 permalink: /charlas/
 title: "Charlas, conferencias y talleres"
 ---

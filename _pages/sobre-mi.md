@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Sobre mí"
 permalink: /sobre-mi/
 ---
