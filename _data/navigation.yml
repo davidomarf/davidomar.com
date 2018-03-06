@@ -10,3 +10,5 @@ main:
   #   url: /publicaciones/
   - title: "Proyectos"
     url: /proyectos/
+  - title: "Arte generativo"
+    url: /arte-generativo/
