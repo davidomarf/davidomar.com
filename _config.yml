@@ -242,9 +242,12 @@ compress_html:
 
 # Collections
 collections:
-  portfolio:
+  proyectos:
     output: true
     permalink: /:collection/:path/
+  arte-generativo:
+    output: true
+    permalink: /:collection/:path
 
 
 # Defaults
@@ -261,11 +264,17 @@ defaults:
       share: false
       related: false
       toc: true
-  # _portfolio
+  # _proyectos
   - scope:
       path: ""
-      type: portfolio
+      type: proyectos
     values:
       layout: single
       author_profile: false
       share: false
+  # _arte-generativo
+  - scope:
+      path: ""
+      type: arte-generativo
+    values:
+      layout: single
