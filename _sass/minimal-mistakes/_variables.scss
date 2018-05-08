@@ -106,22 +106,39 @@ $masthead-link-color-hover      : mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover       : mix(#fff, $primary-color, 75%) !default;
 
 /* syntax highlighting (base16) */
-$base00                         : #282c34 !default;
-$base01                         : #353b45 !default;
-$base02                         : #3e4451 !default;
-$base03                         : #545862 !default;
-$base04                         : #565c64 !default;
-$base05                         : #abb2bf !default;
-$base06                         : #b6bdca !default;
-$base07                         : #c8ccd4 !default;
-$base08                         : #e06c75 !default;
-$base09                         : #d19a66 !default;
-$base0a                         : #e5c07b !default;
-$base0b                         : #98c379 !default;
-$base0c                         : #56b6c2 !default;
-$base0d                         : #61afef !default;
-$base0e                         : #c678dd !default;
-$base0f                         : #be5046 !default;
+$base00                         : #f3f3f3 !default;
+$base01                         : #d0d0d0 !default;
+$base02                         : rgba(176, 176, 176, 0.13) !default;
+$base03                         : #949494 !default;
+$base04                         : #444444 !default;
+$base05                         : #4d4d4c !default;
+$base06                         : #262626 !default;
+$base07                         : #c5c8c6 !default;
+$base08                         : #8959a8 !default;
+$base09                         : #d75f00 !default;
+$base0a                         : #4271ae !default;
+$base0b                         : #718c00 !default;
+$base0c                         : #3e999f !default;
+$base0d                         : #005f87 !default;
+$base0e                         : #d7005f !default;
+$base0f                         : #df0000 !default;
+
+// $base00                         : #282c34 !default;
+// $base01                         : #353b45 !default;
+// $base02                         : #3e4451 !default;
+// $base03                         : #545862 !default;
+// $base04                         : #565c64 !default;
+// $base05                         : #abb2bf !default;
+// $base06                         : #b6bdca !default;
+// $base07                         : #c8ccd4 !default;
+// $base08                         : #e06c75 !default;
+// $base09                         : #d19a66 !default;
+// $base0a                         : #e5c07b !default;
+// $base0b                         : #98c379 !default;
+// $base0c                         : #56b6c2 !default;
+// $base0d                         : #61afef !default;
+// $base0e                         : #c678dd !default;
+// $base0f                         : #be5046 !default;
 
 /*
    Breakpoints
