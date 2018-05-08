@@ -66,7 +66,7 @@ $primary-color                  : #7a8288 !default;
 $success-color                  : #62c462 !default;
 $warning-color                  : #f89406 !default;
 $danger-color                   : #ee5f5b !default;
-$info-color                     :  rgb(192, 54, 123); //#52adc8 !default;
+$info-color                     : rgb(192, 54, 123); //#52adc8 !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default    : $dark-gray !default;
@@ -120,7 +120,7 @@ $base0a                         : #4271ae !default;
 $base0b                         : #718c00 !default;
 $base0c                         : #3e999f !default;
 $base0d                         : #005f87 !default;
-$base0e                         : #d7005f !default;
+$base0e                         : rgb(192, 54, 123) !default;
 $base0f                         : #df0000 !default;
 
 // $base00                         : #282c34 !default;
