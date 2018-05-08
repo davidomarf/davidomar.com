@@ -9,9 +9,6 @@ tags:
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-
-## Prefacio
-
 Hace un par de años me topé con un vídeo de VSauce en el que trata el tema de [«El misterio de Zipf»](https://www.youtube.com/watch?v=fCn8zs912OE){:target='_blank'}. Durante todo ese tiempo, hasta esta madrugada de noviembre en la que mezclaba mi quinta taza de café, había permanecido en mi cabeza como algo recurrente pero irrelevante.
 
 Y es porque tuve la idea de querer de visualizar la ley de Zipf en códigos fuente. Incluso, más allá de eso, tratar de visualizar la propensión de algunos lenguajes a *cumplir* con la ley de Zipf.
@@ -23,6 +20,12 @@ Este pequeño proyecto estará compuesto de tres fases *básicas*:
 * el minado de los archivos,
 * el procesamiento de los archivos,
 * la visualización de los datos.
+
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
 
 ## Introducción
 

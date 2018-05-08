@@ -26,6 +26,12 @@ Consiste en:
 
 Aunque en esencia pueda parecer un proceso más largo, lo único que tenemos que hacer cada que queramos actualizar los gráficos es **ejecutar el programa** y **recompilar el archivo TeX**
 
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
+
 ## Estructura del directorio
 
 En la carpeta donde está localizado el archivo .tex, crearás una carpeta llamada img -o como quieras llamarla, pero ahí guardarás las imágenes para tu documento.

@@ -24,6 +24,12 @@ Al día siguiente, y después de un par de búsquedas, encontré el concepto que
 
 En este artículo estará escrito todo el proceso desde el estado del arte, hasta el algoritmo para coser imágenes que yo implementaré. Será bastante extenso, pero estará bastante bien auto-contenido. Lo suficiente para que, si lo decides, puedas escribir tu propio algoritmo en el lenguaje que quieras.
 
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
+
 ## ¿Qué es el *photo-stitching*?
 
 Es un proceso en el que se combinan diferentes imágenes con áreas traslapadas, para generar una imagen de mayor dimensión.

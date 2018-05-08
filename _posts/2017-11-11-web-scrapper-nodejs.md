@@ -7,11 +7,6 @@ tags:
   - extracción web
 ---
 
-<!-- * TOC
-{:toc} -->
-
-## Prefacio
-
 Desde hace ya un año, había tenido planeado desarrollar un bot para Messenger. Éste recibiría un mensaje
 con el nombre de un artista y una canción, y devolvería la letra.
 
@@ -28,6 +23,12 @@ Lo primero que tuve que desarrollar, fue [mi propia API](https://gimme-the-lyric
 La API es la que hace el trabajo del bot. Éste último sólo lo presenta de una manera más amigable.
 
 Para que mi API funcionara, tenía que **extraer datos de la web**. Y eso es lo que motivó la escritura de este artículo.
+
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
 
 ## Introducción
 

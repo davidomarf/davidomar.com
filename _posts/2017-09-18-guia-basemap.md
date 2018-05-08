@@ -25,6 +25,9 @@ Después de ciertos ajustes —que me tomaron más de un par de horas, y despué
 Y en este artículo compartiré todas las cosas que podrían ayudar a alguien más a iniciar más rápido a utilizar Basemap. Así, podrán pasar más tiempo usando la herramienta, que aprendiendo a utilizarla.
 
 ## Contenido
-- Dibujar mapas
+{:.no_toc}
 
-## Dibujas mapas
+* TOC
+{:toc}
+
+## Dibujar mapas

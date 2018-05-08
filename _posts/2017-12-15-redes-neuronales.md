@@ -10,6 +10,12 @@ Este es un artículo re-escrito después de haberlo perdido en un arranque fúri
 
 Como sea, haré mi mejor esfuerzo: comencemos contando una pequeña historia.
 
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
+
 ## La fotogenia de Mike Ehrmantraut
 
 Era 10 de Abril de 2017 y se estrenaba la tercera temporada de una serie que me ha encantado desde el principio y recomiendo febrilmente: Better Call Saul.

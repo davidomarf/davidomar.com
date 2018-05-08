@@ -22,6 +22,12 @@ Lo primero, evolucionó al campo de las redes neuronales; lo segundo, al aprendi
 
 [Continuar con la historia jaja]
 
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
+
 ## Terminología
 
 Creo que antes de comenzar con la representación en la computadora de estos algoritmos, es importante familiarizarnos con el origen de estas abstracciones. Así será más fácil ir adquiriendo la intuición del problema.

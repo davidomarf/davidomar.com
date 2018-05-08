@@ -13,6 +13,12 @@ La aplicación creada la alojaremos en GitHub para poder integrar *Apps* del *Ma
 
 Para esto, asumo que tienes [git](https://git-scm.com) y [Node.js](https://nodejs.org) instalados.
 
+## Contenido
+{:.no_toc}
+
+* TOC
+{:toc}
+
 ## Parte 1: El repositorio
 
 Puedes crear un repositorio nuevo para tu proyecto, o utilizar uno ya creado. Sea lo que sea, asegúrate de [crear un .gitignore](https://www.gitignore.io) en tu directorio raíz. De no hacerlo, terminarás subiendo varios MBs de código en módulos de Node.js.a
