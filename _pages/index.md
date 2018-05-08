@@ -10,22 +10,51 @@ header:
   overlay_image: images/header.jpg
 ---
 
-{: .text-center}
-Hola, me llamo David. Soy un estudiante en ciencias de la computación con especial
-interés en la ingenería de software, el aprendizaje automático, y la investigación
-en computación cuántica.
+<script>
+var description = [
+  "escuchar música de abuelitos",
+  "seguir subreddits de animalitos",
+  "<a href = 'https://youtu.be/paqr3kdmcZg?list=PLwic3h1bAlblkSJ-U9YxEpTclFoUS_Otq' target=_blank>Woodkid</a>",
+  "referenciar momentos de Los Simpson",
+  "el arte generativo",
+  "bailar (apesar de hacerlo ridiculamente mal)",
+  "la carpintería"
+];
+var randomNumber = Math.floor(Math.random() * description.length);
+</script>
+<script>
+window.onload = function() {
+  var a = document.getElementById("random-description-switcher");
+  a.onclick = function() {
+    if (randomNumber < description.length - 1) {
+      randomNumber++;
+      document.getElementById("random-description").innerHTML =
+        description[randomNumber];
+    } else {
+      randomNumber = 0;
+      document.getElementById("random-description").innerHTML =
+        description[randomNumber];
+    }
+    return false;
+  };
+};
+</script>
 
-{: .text-center}
-Sin embargo, intento aprender —y escribir— sobre casi cualquier cosa que me causa interés, y esa lista
-es considerablemente más extensa.
+Hola, me llamo David. Soy un estudiante en ciencias de la computación. Tengo un especial interés por la complejidad, el aprendizaje automático, la computación cuántica, y <script>document.write('—<a id="random-description-switcher" href="#">entre otras cosas</a>—, <span id="random-description"> ' + description[randomNumber] + '</span>');</script>.
 
-{: .text-center}
-Jamás he sido un estudiante brillante. Siempre he tenido problemas para converger al camino
-«estándar». Muchas veces es desmotivante.
+Este sitio es, en parte, un intento por aprender y escribir sobre todo eso y otros temas que me causan interés.
 
-{: .text-center}
-Entre mis pasatiempos está la generación procedural, la simulación, y correr.
+## ¿Quieres trabajar conmigo? ¡Conectemos!
+
+Puedes enlazar conmigo vía [LinkedIn](https://www.linkedin.com/in/davidomarfch/), o escribirme a [davidomarfch@gmail.com](mailto:davidomarfch@gmail.com). Ambos los reviso constantemente.
 
 ---
-> Hola putones. Jaja mis saludos a todos mis compuitas espexialmente a mis compas ajajaja siono mis
-> comrades? digo, mis colleagues.
+
+## Sobre el sitio
+
+El sitio está construido usando [Jekyll](https://jekyllrb.com). El tema que uso es una versión un poco modificada de [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
+
+El dominio `.me` fue un obsequio por parte de [Namecheap](https://www.namecheap.com) incluido en [GitHub Student Pack](https://education.github.com/pack), y el alojamiento lo provee [GitHub Pages](https://pages.github.com).
+
+Para manejar otras cosas como el certificado de seguridad y el caché del sitio, utilizo [CloudFlare](https://www.cloudflare.com).
+
