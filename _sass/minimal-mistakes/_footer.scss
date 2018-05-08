@@ -17,9 +17,9 @@
   margin-top: 3em;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
-          animation: $intro-transition;
+  animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
-          animation-delay: 0.45s;
+  animation-delay: 0.45s;
   background-color: $footer-background-color;
 
   footer {
@@ -44,18 +44,20 @@
     }
   }
 
-  .fa {
+  .fas,
+  .fab,
+  .far,
+  .fal {
     color: $muted-text-color;
   }
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-5 * .9;
+  font-size: $type-size-7;
 }
 
 .page__footer-follow {
-
   ul {
     margin: 0;
     padding: 0;

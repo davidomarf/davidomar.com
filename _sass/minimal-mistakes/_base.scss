@@ -14,7 +14,6 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
@@ -107,37 +106,51 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
-
-  cite {
-    font-style: italic;
-
-    &:before {
-      content: "\2014";
-      padding-right: 5px;
-    }
-  }
+  background: $lighter-gray;
+  margin: 2em 1em;
+  padding: 1em 1.5em;
+  border-left: .5em solid $light-gray;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
+blockquote:before {
+  color: $light-gray;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+// blockquote {
+//   background: $lighter-gray ;
+//   margin: 2em 1em 2em 0;
+//   padding-left: 1em;
+//   padding-right: 1em;
+//   font-style: italic;
+//   border-left: 0.35em solid $dark-gray;
+//   cite {
+//     font-style: italic;
+//     &:before {
+//       content: "\2014";
+//       padding-right: 5px;
+//     }
+//   }
+// }
 /* links */
 
 a {
   &:focus {
     @extend %tab-focus;
   }
-
   &:hover,
   &:active {
-    color: $link-color-hover;
+    color: $text-color;
     outline: 0;
-  }
-
-  &:visited {
-    color: $link-color-visited;
   }
   text-decoration: none;
 }
@@ -159,26 +172,25 @@ pre {
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  overflow-x: auto;
+  /* add scrollbars to wide code blocks*/
 }
 
-p > code,
-a > code,
-li > code,
-figcaption > code,
-td > code {
+p>code,
+a>code,
+li>code,
+figcaption>code,
+td>code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
   background: $code-background-color;
-  border: 1px solid $border-color;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
-
   &:before,
   &:after {
     letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
+    content: "\00a0";
+    /* non-breaking space*/
   }
 }
 
@@ -218,45 +230,38 @@ figure {
   align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
-
   img,
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
   }
-
   img {
     width: 100%;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
   }
-
-  > a {
+  >a {
     display: block;
   }
-
   &.half {
-    > a,
-    > img {
+    >a,
+    >img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
       }
     }
-
     figcaption {
       width: 100%;
     }
   }
-
   &.third {
-    > a,
-    > img {
+    >a,
+    >img {
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
       }
     }
-
     figcaption {
       width: 100%;
     }
@@ -270,11 +275,9 @@ figcaption {
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
-
   a {
     -webkit-transition: $global-transition;
     transition: $global-transition;
-
     &:hover {
       color: $link-color-hover;
     }
@@ -309,21 +312,17 @@ nav {
     margin: 0;
     padding: 0;
   }
-
   li {
     list-style: none;
   }
-
   a {
     text-decoration: none;
   }
-
   /* override white-space for nested lists */
   ul li,
   ol li {
     margin-bottom: 0;
   }
-
   li ul,
   li ol {
     margin-top: 0;
