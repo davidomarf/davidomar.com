@@ -1,5 +1,5 @@
 ---
 title: "Categorías del sitio"
-permalink: /categories/
+permalink: /categorias/
 layout: categories
 ---
