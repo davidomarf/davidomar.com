@@ -1,6 +1,6 @@
 ---
 title: "Sobre Better Call Saul, perros con sombrero, y redes neuronales"
-blog: "blog"
+blog: blog
 categories:
   - inteligencia artificial
 tags:

@@ -1,5 +1,7 @@
 ---
 title: "Blog"
+blog: blog
+
 excerpt: "Aquí comparto mis avances en todos mis proyectos. Las ideas que tengo, y los intentos que hago para implementarlas."
 permalink: /blog/
 layout: posts
