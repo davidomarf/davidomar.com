@@ -1,16 +1,12 @@
 # main links
 main:
-  - title: "escritos"
+  - title: "sobre mí"
+    url: /about
+  - title: "blog"
     url: /blog
-  - title: "arte generativo"
-    url: /
-  - title: "résumé"
-    url: https://www.linkedin.com/in/davidomarfch/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "diario"
+    url: /diario
+  - title: "proyectos"
+    url: /portfolio
+  - title: "cv"
+    url: /cv.pdf

@@ -1,6 +1,6 @@
 ---
-title: "Escritos"
-excerpt: "Ideas, opiniones, informes, y casi cualquier otra cosa. Es el espacio en donde comparto mis planes, mi trayecto, mis logros, y con aún más orgullo, mis fracasos, tropiezos y mi lucha contra los malos hábitos."
+title: "Blog"
+excerpt: "Aquí comparto mis avances en todos mis proyectos. Las ideas que tengo, y los intentos que hago para implementarlas."
 permalink: /blog/
 layout: posts
 align: center

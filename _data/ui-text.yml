@@ -69,7 +69,7 @@ es: &DEFAULT_ES
   meta_label                 : 
   tags_label                 : "Etiquetas:"
   categories_label           : "Categorías:"
-  date_label                 : "Actualizado:"
+  date_label                 : "Fecha:"
   comments_label             : "Comentar"
   comments_title             : "Comentarios"
   more_label                 : "Ver más"
