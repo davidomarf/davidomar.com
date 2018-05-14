@@ -1,12 +1,15 @@
 ---
 title: "Blog"
+permalink: /blog/
 blog: blog
 
-excerpt: "Aquí comparto mis avances en todos mis proyectos. Las ideas que tengo, y los intentos que hago para implementarlas."
-permalink: /blog/
+
 layout: posts
+hideTitle: False
 align: center
-header:
-  overlay_filter: 0.5
-  overlay_image: images/header.jpg
+---
+
+{: .text-center}
+Aquí escribo sobre los avances en mis proyectos. Las ideas que tengo, y mis intentos —exitosos o fallidos- por implementarlas. Los temas son, casi siempre, computación, física, o matemáticas.
+
 ---
