@@ -1,6 +1,6 @@
 ---
 title: "Diario"
-permalink: /diario/
+permalink: /diario
 blog: diario
 
 
