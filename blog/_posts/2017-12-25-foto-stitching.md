@@ -4,6 +4,7 @@ categories:
   - vision artificial
 tags:
   - cosido de imagen
+published: false
 ---
 
 Era 24 de diciembre, el cielo comenzaba a aclararse, y hacía un frío entumecedor. Me vestí, até mis agujetas, y salí a correr.

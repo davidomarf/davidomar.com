@@ -4,6 +4,7 @@ categories:
   - computacion
 tags:
   - latex
+published: false
 ---
 
 Durante el último par de días comencé a aventurarme en la gran curva de aprendizaje de [LaTeX](https://www.latex-project.org). Después de pasar poco más de una hora instalando [MikTex](https://miktex.org) y **varios** paquetes que después no volví a ocupar, logré *entrar en la zona*.

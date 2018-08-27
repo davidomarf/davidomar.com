@@ -5,9 +5,6 @@ permalink: /about
 
 layout: single
 align: center
-header:
-  overlay_filter: 0.5
-  overlay_image: images/header.jpg
 ---
 
 <script>

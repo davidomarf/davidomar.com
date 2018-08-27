@@ -2,6 +2,7 @@
 title: "¿Se puede ser competitivo, y simultáneamente, evitar compararte con otros?"
 blog: "diario"
 fav: False
+published: false
 ---
 
 Grand Theft Auto VC es, sin lugar a dudas, mi entrega favorita de toda la saga. Tal vez sea el sentimiento de nostalgia, el soundtrack del juego, o la historia. Muy probablemente una suma de todo eso.

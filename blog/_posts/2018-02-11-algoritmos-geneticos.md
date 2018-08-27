@@ -5,7 +5,7 @@ categories:
   - plan de aprendizaje
 tags:
   - algoritmo genético
-hidden: true  
+published: false
 ---
 
 // Escribir introducción toa chula toa rechulona

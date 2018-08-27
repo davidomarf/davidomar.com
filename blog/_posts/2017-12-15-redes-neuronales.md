@@ -5,6 +5,7 @@ categories:
   - inteligencia artificial
 tags:
   - red neuronal
+published: false
 ---
 
 Este es un artículo re-escrito después de haberlo perdido en un arranque fúrico e inconsciente. ¿Saben sobre ese sentimiento cuando haces algo por segunda vez y tienes la sensación de que la primer versión fue mucho mejor? Bueno, es eso que siento justo ahora.

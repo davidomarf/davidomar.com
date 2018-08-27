@@ -7,7 +7,7 @@ tags:
   - datos
   - python
   - datos geográficos
-hidden: true
+published: false
 ---
 
 Recientemente empecé a trabajar en un proyecto de visualización de datos, usando el conjunto [World Language Family Map](https://www.kaggle.com/rtatman/world-language-family-map) en Kaggle. El conjunto contiene , entre muchas otras características, la latitud y longitud donde se habla cada uno de más de 18 000 lenguajes.

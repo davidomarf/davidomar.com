@@ -6,7 +6,7 @@ main:
     url: /blog
   - title: "diario"
     url: /diario
-  - title: "proyectos"
-    url: /portfolio
+  # - title: "proyectos"
+  #   url: /portfolio
   - title: "cv"
     url: /cv.pdf

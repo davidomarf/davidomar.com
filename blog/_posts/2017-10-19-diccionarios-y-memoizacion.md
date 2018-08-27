@@ -7,6 +7,7 @@ tags:
   - recursión
   - memoización
   - recursion
+published: false
 ---
 
 Un arreglo asociativo -o más comúnmente llamado mapa o diccionario-, es un tipo de dato abstracto.

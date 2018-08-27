@@ -5,7 +5,7 @@ categories:
 tags:
   - caos
   - simulación
-hidden: false
+published: false
 ---
 
 // Contenido
