@@ -1,6 +1,4 @@
 ---
-title: "About me"
-excerpt: "This is what I am, do, and believe"
 permalink: /
 
 layout: single
