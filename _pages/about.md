@@ -1,6 +1,6 @@
 ---
-title: "Sobre mí"
-excerpt: "Esto es quien soy, lo que hago, y lo que creo."
+title: "About me"
+excerpt: "This is what I am, what I do, and what I believe in"
 permalink: /about
 
 layout: single
@@ -9,13 +9,12 @@ align: center
 
 <script>
 var description = [
-  "escuchar música de abuelitos",
-  "seguir subreddits de animalitos",
+  "procrastinating in <a href = 'https://www.reddit.com/r/aww' target=_blank>r/aww</a>",
   "<a href = 'https://youtu.be/paqr3kdmcZg?list=PLwic3h1bAlblkSJ-U9YxEpTclFoUS_Otq' target=_blank>Woodkid</a>",
-  "referenciar momentos de Los Simpson",
-  "el arte generativo",
-  "bailar (apesar de hacerlo ridiculamente mal)",
-  "la carpintería"
+  "quoting The Simpsons on a daily basis",
+  "generative artwork",
+  "dancing (even when I'm pretty bad at it)",
+  "woodworking"
 ];
 var randomNumber = Math.floor(Math.random() * description.length);
 </script>
@@ -37,21 +36,22 @@ window.onload = function() {
 };
 </script>
 
-Hola, me llamo David. Soy un estudiante en ciencias de la computación. Tengo un especial interés por la complejidad, el aprendizaje automático, la computación cuántica, y <script>document.write('—<a id="random-description-switcher" href="#">entre otras cosas</a>—, <span id="random-description"> ' + description[randomNumber] + '</span>');</script>.
+Hi, I'm David!
 
-Este sitio es, en parte, un intento por aprender y escribir sobre todo eso y otros temas que me causan interés.
+I'm a computer science and engineering student. I have a special interest on complexity, machine learning, quantum computing, and <script>document.write('—<a id="random-description-switcher" href="#">among other things</a>—, <span id="random-description"> ' + description[randomNumber] + '</span>');</script>.
 
-## ¿Quieres trabajar conmigo? ¡Conectemos!
+<!-- ## ¿Quieres trabajar conmigo? ¡Conectemos!
 
 Puedes enlazar conmigo vía [LinkedIn](https://www.linkedin.com/in/davidomarfch/), o escribirme a [davidomarfch@gmail.com](mailto:davidomarfch@gmail.com). Ambos los reviso constantemente.
 
+-->
+
 ---
 
-## Sobre el sitio
+## About the site
 
-El sitio está construido usando [Jekyll](https://jekyllrb.com). El tema que uso es una versión un poco modificada de [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
+This webiste was built with [Jekyll](https://jekyllrb.com). The theme I use is a modification of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
 
-El dominio `.me` fue un obsequio por parte de [Namecheap](https://www.namecheap.com) incluido en [GitHub Student Pack](https://education.github.com/pack), y el alojamiento lo provee [GitHub Pages](https://pages.github.com).
+The `.me` domain extension was a gift from [Namecheap](https://www.namecheap.com). It was included in the [GitHub Student Pack](https://education.github.com/pack). The hosting is provided for free by [GitHub Pages](https://pages.github.com).
 
-Para manejar otras cosas como el certificado de seguridad y el caché del sitio, utilizo [CloudFlare](https://www.cloudflare.com).
-
+To handle other things like SSL certificate, cache, and DNS, I use [CloudFlare](https://www.cloudflare.com).

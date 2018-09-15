@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "sobre mí"
+  - title: "about me"
     url: /about
-  - title: "blog"
-    url: /blog
-  - title: "diario"
-    url: /diario
-  # - title: "proyectos"
+  - title: "writings"
+    url: /writings
+  - title: "generative"
+    url: /generative-mistakes
+  # - title: "portfolio"
   #   url: /portfolio
-  - title: "cv"
+  - title: "résumé"
     url: /cv.pdf

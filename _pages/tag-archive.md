@@ -1,5 +1,5 @@
 ---
-title: "Etiquetas del sitio"
-permalink: /etiquetas/
+title: "Site tags"
+permalink: /tags/
 layout: tags
 ---

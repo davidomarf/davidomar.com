@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-permalink: /blog
+title: "Writings"
+permalink: /writings
 blog: blog
 
 
@@ -10,6 +10,7 @@ align: center
 ---
 
 {: .text-center}
-Aquí escribo sobre los avances en mis proyectos. Las ideas que tengo, y mis intentos —exitosos o fallidos- por implementarlas. Los temas son, casi siempre, computación, física, o matemáticas.
+Experiences, thoughts and ideas on science, computing, data, and more.
+If I can write something useful for anyone, I'll make a big effort to do it.
 
 ---

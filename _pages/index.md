@@ -1,6 +1,6 @@
 ---
-title: "Sobre mí"
-excerpt: "Esto es quien soy, lo que hago, y lo que creo."
+title: "About me"
+excerpt: "This is what I am, do, and believe"
 permalink: /
 
 layout: single
@@ -10,12 +10,12 @@ align: center
 #   overlay_image: images/header.jpg
 ---
 
-Esto es el index to rechulón
+This is the index
 
-Leer [sobre mí](/about)
+Read [about me](/about)
 
-Leer mi [blog](/blog)
+Read my [blog](/blog)
 
-Leer mi [diario](/diario)
+Read my [journal](/diario)
 
-Ver mis [proyectos](/proyectos)
+See my [portfolio](/portfolio)
