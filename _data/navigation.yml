@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "sobre mí"
+  - title: "about me"
     url: /about
-  - title: "blog"
-    url: /blog
-  - title: "diario"
-    url: /diario
-  # - title: "proyectos"
-  #   url: /portfolio
+  - title: "writings"
+    url: /writings
+  - title: "portfolio"
+    url: /portfolio
   - title: "cv"
     url: /cv.pdf
