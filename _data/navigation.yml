@@ -4,7 +4,9 @@ main:
     url: /about
   - title: "writings"
     url: /writings
-  - title: "portfolio"
-    url: /portfolio
-  - title: "cv"
+  - title: "generative"
+    url: /generative-mistakes
+  # - title: "portfolio"
+  #   url: /portfolio
+  - title: "résumé"
     url: /cv.pdf
