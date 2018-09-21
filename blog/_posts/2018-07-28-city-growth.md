@@ -1,5 +1,6 @@
 ---
 title: The thresholds that spark city growth
 link: https://daque.me/viare/city-growth
-read_time: false
+external_site: daque
+external_site_url: https://daque.me/
 ---

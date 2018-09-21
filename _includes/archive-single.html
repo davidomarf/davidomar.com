@@ -32,7 +32,10 @@
     </h2>
 
     {% if post.link %}
-      <p class="page__meta"><i class="fas fa-external-link-alt"></i> Redirects to external post. </p><br>
+      <p class="page__meta"><i class="fas fa-external-link-alt"></i> Redirects to external post
+        {% if post.external_site_url %}at <a href="{{ post.external_site_url }}" target="_blank">{{ post.external_site_url }}</a>
+        {% endif %}
+      </p><br>
     {% endif%}
     {% if post.read_time %}
       {% unless post.link %}
