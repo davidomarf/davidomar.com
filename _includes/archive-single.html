@@ -2,7 +2,7 @@
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
-{% endif %}
+{% endif %} 
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -25,13 +25,19 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}" target="_blank" class="{{ post.external_site }}-external-post">{{ title }}</a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+    {% if post.link %}
+      <p class="page__meta"><i class="fas fa-external-link-alt"></i> Redirects to external post. </p><br>
+    {% endif%}
     {% if post.read_time %}
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p><br>
+      {% unless post.link %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %} </p><br>
+      {% endunless %}
     {% endif %}
     <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %} -->
   </article>
