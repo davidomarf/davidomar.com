@@ -6,7 +6,7 @@ align: center
 hideTitle: true
 ---
 
-## Hi, I'm David Omar. I read, learn, develop, and write stuff.
+## Hi, I'm David
 
 I'm a computer science and engineering student living in Mexico City, and this is my website —see how good I am at describing the evident? I can explain jokes too.
 

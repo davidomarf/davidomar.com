@@ -37,7 +37,7 @@ window.onload = function() {
 };
 </script>
 
-# About me
+## About me
 
 I'm a computer science and engineering student. I spend my time learning, writing, or <script>document.write('—<a id="random-description-switcher" href="#">among other things</a>—, <span id="random-description"> ' + description[randomNumber] + '</span>');</script>. 
 

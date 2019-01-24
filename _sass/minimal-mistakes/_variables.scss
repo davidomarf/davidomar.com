@@ -13,7 +13,7 @@ $paragraph-indent               : false !default; // true, false (default)
 $indent-var                     : 1.3em !default;
 
 /* system typefaces */
-$serif                          : "Sanchez", Georgia, Times, serif !default;
+$serif                          : "Montserrat", Georgia, Times, serif !default;
 $sans-serif                     : "Work Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
                                         "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace                      : Monaco, Consolas, "Lucida Console", monospace !default;
@@ -29,8 +29,8 @@ $bodoni                         : "Bodoni MT", serif !default;
 $calisto                        : "Calisto MT", serif !default;
 $garamond                       : Garamond, serif !default;
 
-$global-font-family             : $sans-serif !default;
-$header-font-family             : $serif !default;
+$global-font-family             : $serif !default;
+$header-font-family             : $sans-serif !default;
 $caption-font-family            : $serif !default;
 
 /* type scale */
@@ -163,7 +163,7 @@ $right-sidebar-width-wide       : 260px !default;
    ========================================================================== */
 
 $border-radius                  : 0px !default;
-$box-shadow                     : 0 5px 5px rgba(0, 0, 0, 0.125) !default;
+$box-shadow                     : 2px 2px 2px rgba(0, 0, 0, 0.125) !default;
 $navicon-width                  : 1.5rem !default;
 $navicon-height                 : 0.25rem !default;
 $global-transition              : all 0.2s ease-in-out !default;
@@ -174,15 +174,15 @@ $intro-transition               : intro 0.3s both !default;
   Serving fonts locally
   =========================================================================== */
 
-/* work-sans-300 - latin */
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Work Sans Light'), local('WorkSans-Light'),
-       url('../fonts/work-sans-v3-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/work-sans-v3-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+// /* work-sans-300 - latin */
+// @font-face {
+//   font-family: 'Work Sans';
+//   font-style: normal;
+//   font-weight: 300;
+//   src: local('Work Sans Light'), local('WorkSans-Light'),
+//        url('../fonts/work-sans-v3-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//        url('../fonts/work-sans-v3-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+// }
 
 /* work-sans-regular - latin */
 @font-face {
@@ -194,13 +194,12 @@ $intro-transition               : intro 0.3s both !default;
        url('../fonts/work-sans-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-    
-    /* sanchez-regular - latin */
-    @font-face {
-        font-family: 'Sanchez';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Sanchez'), local('Sanchez-Regular'),
-             url('../fonts/sanchez-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-             url('../fonts/sanchez-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-      }  
+ /* montserrat-regular - latin */
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }

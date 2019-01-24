@@ -79,12 +79,12 @@ select {
   display: inline-block;
   width: 100%;
   padding: 0.25em;
-  margin-bottom: 0.5em;
+  // margin-bottom: 0.5em;
   color: $text-color;
   background-color: $background-color;
   border: $border-color;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  // box-shadow: $box-shadow;
 }
 
 .input-mini {
@@ -391,3 +391,18 @@ select:focus {
 #goog-wm-sb {
   @extend .btn;
 }
+
+
+
+// div{
+//   &.d3-form{
+//     // display: flex; /* 2. display flex to the rescue */
+//     // flex-direction: row;
+//     input {
+//       // display: table-cell;
+//       display: inline;
+//       white-space:nowrap;
+//     }
+//   }
+// }
+
