@@ -8,5 +8,5 @@ main:
     url: /generative-mistakes
   # - title: "portfolio"
   #   url: /portfolio
-  - title: "résumé"
-    url: /cv.pdf
+  # - title: "résumé"
+  #   url: /cv.pdf
