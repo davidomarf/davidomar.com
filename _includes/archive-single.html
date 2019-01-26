@@ -25,7 +25,7 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}" target="_blank" class="{{ post.external_site }}-external-post">{{ title }}</a>
+        <a href="{{ post.link }}" target="_blank" class="{{ post.external_site }}-external-post no-target-blank">{{ title }}</a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
@@ -33,7 +33,7 @@
 
     {% if post.link %}
       <p class="page__meta"><i class="fas fa-external-link-alt"></i> Redirects to external post
-        {% if post.external_site_url %}at <a href="{{ post.external_site_url }}" target="_blank">{{ post.external_site_url }}</a>
+        {% if post.external_site_url %}at <a href="{{ post.external_site_url }}" target="_blank" class="no-target-blank">{{ post.external_site_url }}</a>
         {% endif %}
       </p><br>
     {% endif%}
