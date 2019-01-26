@@ -145,16 +145,49 @@ blockquote p {
 /* links */
 
 a {
-  &:focus {
-    @extend %tab-focus;
-  }
-  &:hover,
-  &:active {
-    color: $text-color;
-    outline: 0;
-  }
+  color: $link-color;
   text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid $link-color-underline;
+  transition: 0.5s;
+  svg{
+    transition: 0.5s;
+    color: $link-color-underline;
+  }
+  .masthead &, .archive &, .reversefootnote{
+    border-bottom: none;
+    color: rgba($text-color, .6);
+    svg{
+      color: rgba($text-color, .6);
+    }
+    &:hover{
+      border-bottom: none;
+      color: $text-color;
+      svg{
+        color: $text-color;
+      }
+    }
+  }
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: none !important;
+    border-bottom: 1px solid $link-color-hover;
+    // transition: 0.5s;
+    svg{
+      color: $link-color-hover;
+    }
+  }
 }
+
+// a:hover {
+//   color: $link-color-hover;
+//   text-decoration: none !important;
+//   border-bottom: 2px solid $link-color-hover;
+//   // transition: 0.5s;
+//   svg{
+//     color: $link-color-hover;
+//   }
+// }
 
 /* buttons */
 
