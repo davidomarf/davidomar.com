@@ -1,1 +1,12 @@
-https://raw.githubusercontent.com/davidomarf/davidomar.me/e511245233825f57b3fd1bdcc1ef8dc809ddbd7f/_data/navigation.yml
+# main links
+main:
+  - title: "about"
+    url: /about
+  - title: "writings"
+    url: /writings
+  - title: "generative"
+    url: /generative-mistakes
+  # - title: "portfolio"
+  #   url: /portfolio
+  # - title: "résumé"
+  #   url: /cv.pdf
