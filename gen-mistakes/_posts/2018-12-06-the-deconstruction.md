@@ -1,11 +1,15 @@
 ---
 title: "The Deconstruction"
 blog: gen-mistakes
+comments: true
 ---
 
 This is the first serious attempt to try to come with something on my own.
 The idea came from the cover of a notebook[^fn1]. I was automatically attracted
 to it, and I decided I wanted to replicate those graphics procedurally.
+
+To set the title for this project, I used Eels' last album:
+[The Deconstruction](https://www.youtube.com/watch?v=59Au8TUVakg){: target="_blank"}
 
 At the end, I ended with results like these ones:
 
