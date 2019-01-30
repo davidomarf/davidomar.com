@@ -154,7 +154,7 @@ a {
     transition: 0.5s;
     color: $link-color-underline;
   }
-  .masthead &, .archive &, .reversefootnote{
+  .masthead &, .archive &, .reversefootnote, &.no-underline-link{
     border-bottom: none;
     color: rgba($text-color, .6);
     svg{
