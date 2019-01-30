@@ -40,12 +40,12 @@ comments:
 staticman:
   allowedFields          : ["name", "email", "url", "message"]
   branch                 : "master"
-  endpoint               : "https://dev.staticman.net/v3/entry/github/davidomarf/davidomar.me/master"
+  endpoint               : "https://dev.staticman.net/v3/entry/github/davidomarf/davidomar.me"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "/_data/comments/{options.slug}"
+  path                   : "_data/comments/{options.slug}"
   requiredFields         : ["name", "email", "message"]
   transforms:
     email                : "md5"
