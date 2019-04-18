@@ -82,7 +82,7 @@ And I really think now that by reading, your mind gets into a broader, more dyna
 
 And that's one of my favorite things. Learning something new and feel that I *intuitively* knew it. And then figure out why I felt it.
 
-I write some of my beliefs and ideas at my [blog](https://blog.davidomar.me){:target="_blank"}. It's a very personal and honest thing.
+I write some of my beliefs and ideas at my [blog](https://blog.davidomar.com){:target="_blank"}. It's a very personal and honest thing.
 
 I write impartially. Both "positive" and "negative" things. For example, when I feel bad, dobious, insecure, or angry about myself —thing that I believe, happens to all of us every once in a while. 
 
@@ -120,6 +120,6 @@ To handle other things like SSL certificate, cache, and DNS, I use [CloudFlare](
 
 ## Get in touch
 
-If you'd like to get in touch, connect with me via [LinkedIn](https://www.linkedin.com/in/davidomarfch/){:target="_blank"}, or write me at [david@davidomar.me](mailto:davidomarfch@gmail.com). I also use [Instagram](https://www.instagram.com/__dvorff/){:target="_blank"}, but mainly to post and like generative artwork.
+If you'd like to get in touch, connect with me via [LinkedIn](https://www.linkedin.com/in/davidomarfch/){:target="_blank"}, or write me at [david@davidomar.com](mailto:david@davidomar.com). I also use [Instagram](https://www.instagram.com/__dvorff/){:target="_blank"}, but mainly to post and like generative artwork.
 
 I check them constantly, so you won't have to wait too much to get a response.

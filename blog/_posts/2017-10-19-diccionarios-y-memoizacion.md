@@ -34,7 +34,7 @@ Este algoritmo es ineficiente, pues el número de recursiones que tiene que hace
 
 Por ejemplo, si queremos calcular <strong>fib(6)</strong>, las llamadas recursivas se verán algo así:
 
-<a href="http://davidomar.me/es/blog/diccionarios-y-memoizacion/recursive_fibonacci/" rel="attachment wp-att-338"><img class="aligncenter size-full wp-image-338" src="http://davidomar.me/wp-content/uploads/2017/10/Recursive_fibonacci.png" alt="" width="1294" height="453" /></a>
+<a href="http://davidomar.com/es/blog/diccionarios-y-memoizacion/recursive_fibonacci/" rel="attachment wp-att-338"><img class="aligncenter size-full wp-image-338" src="http://davidomar.com/wp-content/uploads/2017/10/Recursive_fibonacci.png" alt="" width="1294" height="453" /></a>
 
 Tanto <strong>fib(5)</strong> como <strong>fib(6)</strong> son llamados sólo una vez, pero <strong>fib(4)</strong> dos veces, y <strong>fib (3)</strong> tres.
 <h3>Diccionarios</h3>
