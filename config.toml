@@ -4,10 +4,11 @@ title = "i'm david"
 theme = "hugo-journal"
 
 [params]
-  description = "ideas and mistakes about development"
+  description = "i write some ideas about development"
   githubUsername = "davidomarf"
   twitterUsername = "davidomarf"
-  tagline = "ideas and mistakes about development"
+  tagline = "i write some ideas about development"
+  resume = "./resume.pdf"
 [params.work]
   jobTitle = "Author"
   company = "Generative Mistakes"
