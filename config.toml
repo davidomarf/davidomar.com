@@ -1,0 +1,20 @@
+baseURL = "http://davidomar.com/"
+languageCode = "en-us"
+title = "i'm david"
+theme = "hugo-journal"
+
+[params]
+  description = "ideas and mistakes about development"
+  githubUsername = "davidomarf"
+  twitterUsername = "davidomarf"
+  tagline = "ideas and mistakes about development"
+[params.work]
+  jobTitle = "Author"
+  company = "Generative Mistakes"
+  companyUrl = "https://gen.davidomar.com/"
+[params.gpg]
+  key = "0x9E07A0FB801E18A9"
+  fingerprint = "E069 59EE 0FFA 5971 6569 436A 9E07 A0FB 801E 18A9"
+  link = "https://pgp.mit.edu/pks/lookup?op=get&search=0x9E07A0FB801E18A9"
+[author]
+  name = "David Omar"
