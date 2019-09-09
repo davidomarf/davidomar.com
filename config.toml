@@ -7,7 +7,7 @@ theme = "hugo-journal"
   description = "i write some ideas about development"
   githubUsername = "davidomarf"
   twitterUsername = "davidomarf"
-  tagline = "i write some ideas about development"
+  tagline = "[--- and i'm available for hiring ---](mailto:davidomar.com)"
   resume = "./resume.pdf"
 [params.work]
   jobTitle = "Author"
