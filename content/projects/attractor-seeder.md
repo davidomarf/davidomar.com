@@ -4,7 +4,7 @@ description: "
   Selecting values that define Clifford and De Jong attractors
   can be a slow task. This tool automates that process.<br>"
 date: 2019-08-27T18:20:45-05:00
-draft: true
+draft: false
 katex: true
 markup: "mmark"
 ---
