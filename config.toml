@@ -9,6 +9,7 @@ theme = "hugo-journal"
   twitterUsername = "davidomarf"
   tagline = "[--- and i'm available for hiring ---](mailto:davidomar.com)"
   resume = "./resume.pdf"
+  gtag = "UA-115039725-1"
 [params.work]
   jobTitle = "Author"
   company = "Generative Mistakes"
