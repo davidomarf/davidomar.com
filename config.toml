@@ -7,7 +7,13 @@ theme = "hugo-journal"
   description = "i write some ideas about development"
   githubUsername = "davidomarf"
   twitterUsername = "davidomarf"
-  tagline = "[--- and i'm available for hiring ---](mailto:davidomar.com)"
+  tagline = """
+  [github](https://github.com/davidomarf) &nbsp; • &nbsp; 
+  [resume](/resume.pdf) &nbsp; • &nbsp;
+  [writings](#writings) &nbsp; • &nbsp;
+  [projects](#projects) &nbsp; • &nbsp;
+  [talks](#talks)
+  """
   resume = "./resume.pdf"
   gtag = "UA-115039725-1"
 [params.work]
@@ -20,3 +26,6 @@ theme = "hugo-journal"
   link = "https://pgp.mit.edu/pks/lookup?op=get&search=0x9E07A0FB801E18A9"
 [author]
   name = "David Omar"
+[blackfriday]
+  plainIDAnchors=true
+  hrefTargetBlank=true
