@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>i&#39;m david</title>
+    <link>http://davidomar.com/</link>
+    <description>Recent content on i&#39;m david</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Sep 2019 13:03:20 -0500</lastBuildDate>
+    
+	<atom:link href="http://davidomar.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Structures for Subway Networks</title>
+      <link>http://davidomar.com/writings/data-structures-for-subway-networks/</link>
+      <pubDate>Wed, 11 Sep 2019 14:15:58 -0500</pubDate>
+      
+      <guid>http://davidomar.com/writings/data-structures-for-subway-networks/</guid>
+      <description>Currently I&amp;rsquo;m developing a twitter bot that will share a generated subway network everyday. The first step is writing the code that will produce the network.
+The first problem arised when I tried to decide how to represent it.
+Originally, I only thought of generating individual lines, represented in arrays, with each element (station) containing a pair of (x, y) coordinates. But sooner than later I found problems with that approach.</description>
+    </item>
+    
+    <item>
+      <title>Pushing to Git Submodules Without Affecting Original Remote</title>
+      <link>http://davidomar.com/writings/pushing-to-submodules-without-affecting-remote/</link>
+      <pubDate>Fri, 06 Sep 2019 20:15:13 -0500</pubDate>
+      
+      <guid>http://davidomar.com/writings/pushing-to-submodules-without-affecting-remote/</guid>
+      <description>Just today I started working with Hugo. The default way to install themes in your website is adding the theme repository as a git submodule.
+Doing so, produces this structure:
+-/mySite ├── .git ## Contains the git info of mySite ├── .gitmodules ## References the repositoriy added as submodule ├── themes/ ├── niceTheme/ ├── .git ## Contains the git info of niceTheme  I originally assumed there would be no problem if I modified the files inside niceTheme normally, like I did when using Jekyll themes, and then push all the changes to my repo.</description>
+    </item>
+    
+    <item>
+      <title>New Beginnings (again)</title>
+      <link>http://davidomar.com/writings/new-beginnings/</link>
+      <pubDate>Fri, 06 Sep 2019 19:48:03 -0500</pubDate>
+      
+      <guid>http://davidomar.com/writings/new-beginnings/</guid>
+      <description>I&amp;rsquo;ve been rebooting my website at least once a year since I started it.
+Originally built with WordPress, adapted to Jekyll, and then decomposed into different websites (a personal blog, and a blog about art), this particular domain was pretty much forgotten by me.
+Even though it was meant to be a blog, I only used it as a landing page. The information in here eventually got outdated, and the whole project evolved into a chunk of text that I didn&amp;rsquo;t want to touch out of lazyness.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Generative Art @ Eventloop</title>
+      <link>http://davidomar.com/talks/eventloop-2019-09/</link>
+      <pubDate>Wed, 04 Sep 2019 15:01:16 -0500</pubDate>
+      
+      <guid>http://davidomar.com/talks/eventloop-2019-09/</guid>
+      <description>I presented &amp;ldquo;Generative Art: Quick introduction to start producing algorithmic visual art&amp;ldquo; at Eventloop for their September 2019 meetup.
+You can see the slides and the repository that contains them.
+Why? Generative Art has been increasingly interesting for me since March 2018. Although is a pretty recent interest in my life, and I don&amp;rsquo;t have enough experience to consider myself a reputable artist, I challenged myself to give a presentation about the topic.</description>
+    </item>
+    
+    <item>
+      <title>Attractor Seeder</title>
+      <link>http://davidomar.com/projects/attractor-seeder/</link>
+      <pubDate>Tue, 27 Aug 2019 18:20:45 -0500</pubDate>
+      
+      <guid>http://davidomar.com/projects/attractor-seeder/</guid>
+      <description>This tool was originally meant to be a personal tool to make my art production process more efficient. When I thought I may not be the only one who could take advantage of it, I decided to make it public (and better).
+You can check and use the tool, or check the repository and do with its contents whatever you want.
+The problem The attractors I work with are Clifford and De Jong attractors.</description>
+    </item>
+    
+    <item>
+      <title>Last.fm user stats</title>
+      <link>http://davidomar.com/projects/lastfm/</link>
+      <pubDate>Sun, 09 Jun 2019 20:20:38 -0500</pubDate>
+      
+      <guid>http://davidomar.com/projects/lastfm/</guid>
+      <description>Ever since I started scrobbling to Last.fm, I&amp;rsquo;ve been recomending it to all my friends.
+I just love the idea of keeping track of what you listen, abling you to find patterns; discover your actual favorite artists, songs, and albums; and visualizing or analyzing that data with different tools available online.
+Although they&amp;rsquo;re very cool, I decided that I&amp;rsquo;d like to make my own. Trying to learn several things while doing it.</description>
+    </item>
+    
+  </channel>
+</rss>

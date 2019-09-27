@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on i&#39;m david</title>
+    <link>http://davidomar.com/projects/</link>
+    <description>Recent content in Projects on i&#39;m david</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2019 18:20:45 -0500</lastBuildDate>
+    
+	<atom:link href="http://davidomar.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attractor Seeder</title>
+      <link>http://davidomar.com/projects/attractor-seeder/</link>
+      <pubDate>Tue, 27 Aug 2019 18:20:45 -0500</pubDate>
+      
+      <guid>http://davidomar.com/projects/attractor-seeder/</guid>
+      <description>This tool was originally meant to be a personal tool to make my art production process more efficient. When I thought I may not be the only one who could take advantage of it, I decided to make it public (and better).
+You can check and use the tool, or check the repository and do with its contents whatever you want.
+The problem The attractors I work with are Clifford and De Jong attractors.</description>
+    </item>
+    
+    <item>
+      <title>Last.fm user stats</title>
+      <link>http://davidomar.com/projects/lastfm/</link>
+      <pubDate>Sun, 09 Jun 2019 20:20:38 -0500</pubDate>
+      
+      <guid>http://davidomar.com/projects/lastfm/</guid>
+      <description>Ever since I started scrobbling to Last.fm, I&amp;rsquo;ve been recomending it to all my friends.
+I just love the idea of keeping track of what you listen, abling you to find patterns; discover your actual favorite artists, songs, and albums; and visualizing or analyzing that data with different tools available online.
+Although they&amp;rsquo;re very cool, I decided that I&amp;rsquo;d like to make my own. Trying to learn several things while doing it.</description>
+    </item>
+    
+  </channel>
+</rss>

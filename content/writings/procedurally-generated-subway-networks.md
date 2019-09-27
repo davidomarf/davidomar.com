@@ -87,6 +87,11 @@ This algorithms has two main parts:
 The meaning I gave to `stationUsageLoad` was "proportion of points inside the city that
 have this station as the closest one".
 
+I didn't want to start an intersection at any line terminal, so I decided not to consider
+them when computing usage load.
+
+##### Voronoi Diagrams 
+
 To solve this, I'd obtain the Voronoi diagram for the stations in the network, and then
 compute the area of each polygon.
 This works because each point that built a polygon, is the closest point to every point
@@ -96,8 +101,22 @@ inside that polygon.
 
 The more usage load, the darker the shade of red. 
 
-I didn't want to start an intersection at any line terminal, so I decided not to consider
-them when computing usage load.
+##### Brute Force
+
+This is the kinda thing I think "cool" developers avoid. And not actively avoidance.
+More like "I didn't even consider it because I couldn't have think of such an
+inelegant 'solution'".
+
+But hey, I also think that I needed to finish the project, so I came up with this
+other idea:
+
+- Generate a bunch of points (1000 is a good number, I suppose).
+- Calculate the closest station to each point.
+- The station that was the closest for more points, is the heaviest one.
+
+Yes, inelegant. Yes, faulty. But saved me tons of code and potentially days of work.
+
+I'll eventually migrate to a Voronoi solution, but currently this is how sub-nets works.
 
 #### Growing lines
 

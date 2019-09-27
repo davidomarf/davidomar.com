@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://davidomar.com/writings/data-structures-for-subway-networks/</loc>
+    <lastmod>2019-09-11T14:15:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/writings/</loc>
+    <lastmod>2019-09-11T14:15:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/</loc>
+    <lastmod>2019-09-08T13:03:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/writings/pushing-to-submodules-without-affecting-remote/</loc>
+    <lastmod>2019-09-06T20:15:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/writings/new-beginnings/</loc>
+    <lastmod>2019-09-06T19:48:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/talks/eventloop-2019-09/</loc>
+    <lastmod>2019-09-04T15:01:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/talks/</loc>
+    <lastmod>2019-09-04T15:01:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/projects/attractor-seeder/</loc>
+    <lastmod>2019-08-27T18:20:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/projects/</loc>
+    <lastmod>2019-08-27T18:20:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/projects/lastfm/</loc>
+    <lastmod>2019-06-09T20:20:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://davidomar.com/tags/</loc>
+  </url>
+  
+</urlset>
