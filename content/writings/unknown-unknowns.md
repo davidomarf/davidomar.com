@@ -1,37 +1,123 @@
 ---
-title: "Minimizing your unknown unknowns"
+title: "Embracing (and fighting) your ignorance"
 date: 2020-01-01T04:00:15-06:00
-draft: true
+draft: false
 ---
 
 So I've been thinking lately what makes a good developer.
 There are tons of articles about it, and I'm sure most of them under
-striking titles like "x things you must/should learn as a developer".
+striking titles like "x things you must/should learn as a developer",
+"x traits only top notch developers have", "the x things to do so
+you don't become a pathetic little weasel (as a developer)" and whatnot.
 
-I firmly believe that the most important traits of a developer goes
-well beyond technical capabilities and knowledge, and lies in more
-abstract and hard-to-measure things, like meta-thinking.
+I don't love those kind of articles. Mainly because all of them contain
+more or less the same information in different order and style.
+
+I'm certain I'm not the first one to propose the following idea as something
+that improves your thinking, but I wanted to write about anyway so I think
+through it a little bit more.
+
+## Metacognition
+
+I firmly believe that the most important traits of a developer 
+(in general, any person) goes well beyond technical capabilities and knowledge,
+and lies in more abstract and hard-to-measure things.
+In this case, [metacognition or metathinking][metacognition]
+---thinking about thinking.
 
 I'm not aware if there are well backed theories on what is the structure
-of knowledge inside our brains. But I think most of use have the ability
-to add a layer to it that we can organize by ourselves. (I don't mean
-like actually modifying our brains, but thinking about the pieces of
-knowledge and how the link between them).
+of the knowledge inside our brains, but I think most of use have the ability
+to consciously add a layer over it so we can organize our pieces of knowledge
+in something like a mind or concept map. I'll refer to this later.
 
-This, for me, would be equivalent to learning the local emergency numbers
-when planning a trip to another city. You may not need them right away, or
-ever, but if you get into a fire, you'll know you have to call the
-firefighters.
+One of the tools that you may use to improve your metacognition is the "known
+unknowns" framework. It's similar to the [Johari Window][Johari Window], but it
+doesn't take into account what other people know. It's just about what you
+know, and what you know about the things you know.
 
-I came to the realization that one of those [characteristics] is being aware
-of your unknowns. Being aware that you lack knowledge, but at the same time,
-knowing where those empty spaces fit in the broader knowledge network.
+## Known unknowns
 
-I think a lot of people is aware of the known and unknowns framework: you have
+Imagine that knowledge is contained in atomic pieces. And you can either
+know them, or not. And you can be aware of them, or not.
 
-- **Known knowns**, or things you're aware of and understand,
-- **Unknown knowns**, or things you undertand even if you're unaware of,
-- **Known unknowns**, or things you're aware of, but don't understand, and
-- **Unknown unknowns**, or things you're unaware of, and don't understand.
+Knowing it means you're informed about its contents. You've assimilated it.
+You own it.
 
-I'm not sure
+Being aware of it means **you know that it exists**, and even that you
+know how it would fit in the broader scheme. You've seen it.
+
+According to the known unknowns framework, there are four categories in
+which a _piece of knowledge_ can fit into:
+
+- **known knowns**: things you know (and are aware of it),
+- **unknown knowns**: things you know even if you're unaware of (intuition),
+- **known unknowns**: things you're aware of, but don't know; and
+- **unknown unknowns**: things you're unaware of, and don't know.
+
+Now, I'm gonna describe what I believe is a sensibly accurate abstraction
+of the learning proccess of something you're unfamiliar with.
+
+## Learning the unfamiliar
+
+First you give an bird's-eye view of the topic. You start to be aware of some
+core concepts and their connections. **You may not know anything about them,
+but you're aware of them.**
+These pieces are represented in gray, and are your **known unknowns**.
+
+![alt](/img/writings/unknown-unknowns/awareness-map.png)
+
+
+Then you start exploring, and after some research, practice, time,
+and sleep, you start to learn some of those pieces ---represented in black.
+
+You're converting known unknowns into **known knowns**.
+ 
+![alt](/img/writings/unknown-unknowns/knowledge-map.png)
+
+You may even start extending your awareness network, and find new links between
+pieces (there are more gray circles now).
+
+And even if you don't know it, you may start to make connections you're
+unaware of. It may be because of a structural resemblance to completely
+different topics, previous experience, or implicit hints you picked up.
+
+You're building intuition. These are your **unknown knowns**.
+
+![alt](/img/writings/unknown-unknowns/intuition-map.png)
+
+But even with that knowledge, you're still ignorant.
+Not because you don't know some of the pieces. **But because you're not even
+aware of them.** You still have **unknown unknowns**.
+
+![alt](/img/writings/unknown-unknowns/unawareness-map.png)
+
+They may be unimportant pieces that getting to learn may not even worth the
+effort. But they also may be important pieces that are fundamental to building
+a more robust network.
+
+I believe that moving those **unknown unknowns** into your **known unknowns**
+is a responsible objective to pursue.
+It helps discover the hidden roadmap behind the fog.
+
+The only question is how to do it, and I can only think of two ways:
+
+1. **Diversifying your interests**. 
+
+    I think that the structural resemblance of different topics can make you
+    develop the intuition that can help you realize you're missing pieces.
+
+    You may be learning economics and realize that there is some resemblance to
+    the cycle of water, for example.
+
+2. **Giving a bird's-eye view every once in a while**.
+
+    The more knowledge you acquire, the easier it could be to find unpolished
+    links, or gaps.
+
+
+At the end, what I want to force myself to do, is not just accept and 
+embrace ignorance, but make an effort to fight it at least by increasing
+the size of my awareness network. Getting to know my unknown unknowns.
+
+[Johari Window]: https://en.wikipedia.org/wiki/Johari_window
+[metacognition]:https://en.wikipedia.org/wiki/Metacognition
