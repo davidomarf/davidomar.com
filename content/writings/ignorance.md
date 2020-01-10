@@ -95,9 +95,11 @@ They may be unimportant pieces that getting to learn may not even worth the
 effort. But they also may be important pieces that are fundamental to building
 a more robust network.
 
+## Growing your awareness
+
 I believe that moving those **unknown unknowns** into your **known unknowns**
 is a responsible objective to pursue.
-It helps discover the hidden roadmap behind the fog.
+It can help you to discover the hidden roadmap behind the fog.
 
 The only question is how to do it, and I can only think of two ways:
 
@@ -114,7 +116,7 @@ The only question is how to do it, and I can only think of two ways:
     The more knowledge you acquire, the easier it could be to find unpolished
     links, or gaps.
 
----
+## Conclusion
 
 But now, of course, reality is not that simple.
 
