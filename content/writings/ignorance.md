@@ -1,14 +1,14 @@
 ---
-title: "Embracing (and fighting) your ignorance"
+title: "On Ignorance"
 date: 2020-01-01T04:00:15-06:00
 draft: false
 ---
 
 So I've been thinking lately what makes a good developer.
 There are tons of articles about it, and I'm sure most of them under
-striking titles like "x things you must/should learn as a developer",
-"x traits only top notch developers have", "the x things to do so
-you don't become a pathetic little weasel (as a developer)" and whatnot.
+striking titles like _"x things you must/should learn as a developer"_,
+_"x traits only top notch [developers][developers] have"_, _"the x things to do so
+you don't become a pathetic little weasel (as a developer)"_ and whatnot.
 
 I don't love those kind of articles. Mainly because all of them contain
 more or less the same information in different order and style.
@@ -114,6 +114,39 @@ The only question is how to do it, and I can only think of two ways:
     The more knowledge you acquire, the easier it could be to find unpolished
     links, or gaps.
 
+---
+
+But now, of course, reality is not that simple.
+
+You can't just pinpoint and say ---yeah, that's one piece of knowledge.
+And that's another right there!---.
+
+Knowledge it's not self-contained. It has many dimensions. Even a single
+"piece" contains networks of smaller pieces. Links between pieces go beyond
+what you can imagine, and a true learning roadmap may not be as organized
+as a concept map.
+
+
+Finally, getting back to the original idea, I think this may help you both
+as a solo developer and as a team member.
+
+As a solo developer, you could improve your ability to think with different
+perspectives, broadening your _"toolkit"_.
+
+Knowing that there's a thing called memoization that caches return values
+may help you write more a more efficient function one day (or never, but
+let's stick with the possibility of that one day), even if you don't know
+the specifics of it. You can go back and research it when needed.
+
+And as a team member, you can strive to make a smoother flow of work
+between teams.
+You don't need to know what your pals on other teams do, but if you are aware
+of their tasks, (and you're kind enough) you'll make an effort to fit your
+work to ease theirs.
+
+It'd be like striving to specify an interface between developers.
+
+---
 
 At the end, what I want to force myself to do, is not just accept and 
 embrace ignorance, but make an effort to fight it at least by increasing
@@ -121,3 +154,4 @@ the size of my awareness network. Getting to know my unknown unknowns.
 
 [Johari Window]: https://en.wikipedia.org/wiki/Johari_window
 [metacognition]:https://en.wikipedia.org/wiki/Metacognition
+[developers]:https://www.youtube.com/watch?v=KMU0tzLwhbE
