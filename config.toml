@@ -4,7 +4,7 @@ title = "i'm david"
 theme = "hugo-journal"
 
 [params]
-  description = "i'm david. i'm a developer and artist based in mexico city. i maintain a blog about generative art. i write some ideas about software or life."
+  description = "i'm a developer and artist. i maintain a blog about generative art. i write some ideas about software or life. lowercase is intentional"
   githubUsername = "davidomarf"
   twitterUsername = "davidomarf"
   tagline = """
