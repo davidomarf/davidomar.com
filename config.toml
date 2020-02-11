@@ -4,7 +4,7 @@ title = "i'm david"
 theme = "hugo-journal"
 
 [params]
-  description = "i write some ideas about development"
+  description = "I'm David, a developer and artist who occasionally writes some ideas on software or life"
   githubUsername = "davidomarf"
   twitterUsername = "davidomarf"
   tagline = """
