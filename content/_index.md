@@ -12,7 +12,7 @@ i maintain [a blog about generative art][gen-mistakes]
 
 [github]: https://github.com/davidomarf
 [instagram]: https://instagram.com/davidomarf/
-[gen-mistakes]: https://gen.davidomar.com
+[gen-mistakes]: https://generativemistakes.art
 [resume]: /resume.pdf
 [writings]: #writings
 [projects]: #projects
