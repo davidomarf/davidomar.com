@@ -140,6 +140,6 @@ And of course, the advantage of having custom color maps like `viridis` and `mag
 [clifford]: http://paulbourke.net/fractals/clifford/
 [de-jong]: http://paulbourke.net/fractals/peterdejong/
 [p5-multiple-canvas]: /writings/unknown-number-of-canvas/
-[attractor-seeder-home]:https://davidomarf.github.io/attractor-seeder/
-[attractor-seeder-grid]:https://davidomarf.github.io/attractor-seeder/grid/?size=300&points=7000&equations=Clifford
-[attractor-seeder-drawer]:https://davidomarf.github.io/attractor-seeder/drawer/?equations=clifford&a=1.8273014502680756&b=1.6958740334761302&c=-0.5574878376673817&d=-1.4923455405069914
+[attractor-seeder-home]: https://davidomarf.github.io/attractor-seeder/
+[attractor-seeder-grid]: https://davidomarf.github.io/attractor-seeder/grid/?size=300&points=7000&equations=Clifford
+[attractor-seeder-drawer]: https://davidomarf.github.io/attractor-seeder/drawer/?equations=clifford&a=1.8273014502680756&b=1.6958740334761302&c=-0.5574878376673817&d=-1.4923455405069914
