@@ -78,9 +78,9 @@ which in my specific case included one Nest project and two Angular projects.
 
 case $1 in
   "serve")
-    (cd backend && konsole -e s ) &
-    (cd front-1 && konsole -e s ) &
-    (cd front-2 && konsole -e s ) ;;
+    ( cd backend && konsole -e s ) &
+    ( cd front-1 && konsole -e s ) &
+    ( cd front-2 && konsole -e s ) ;;
 esac
 ```
 
