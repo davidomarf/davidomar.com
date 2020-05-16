@@ -29,3 +29,9 @@ theme = "hugo-journal"
 [blackfriday]
   plainIDAnchors=true
   hrefTargetBlank=true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2
