@@ -1,6 +1,7 @@
 ---
 title: "Data Structures for Subway Networks"
 date: 2019-09-11T14:15:58-05:00
+toc: true
 draft: false
 ---
 

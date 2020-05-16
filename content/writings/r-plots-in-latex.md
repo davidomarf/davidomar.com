@@ -1,6 +1,7 @@
 ---
 title: "Automatically updating latex figures built with R"
 date: 2017-10-18T00:00:00-00:00
+toc: true
 draft: true
 ---
 

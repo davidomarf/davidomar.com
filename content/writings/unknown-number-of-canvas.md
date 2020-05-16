@@ -1,6 +1,7 @@
 ---
 title: "Working with an unknown number of p5 canvas on the screen"
 date: 2019-09-07T00:42:51-05:00
+toc: true
 draft: true
 ---
 

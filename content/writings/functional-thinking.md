@@ -1,6 +1,7 @@
 ---
 title: "Functional thinking and seemingly non-efficent code"
 date: 2019-09-13T19:59:51-05:00
+toc: true
 draft: false
 ---
 

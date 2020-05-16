@@ -1,6 +1,7 @@
 ---
 title: "Living a broader life"
 date: 2019-12-27T17:47:57-06:00
+toc: true
 draft: true
 ---
 

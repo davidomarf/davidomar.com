@@ -26,6 +26,7 @@ theme = "hugo-journal"
   link = "https://pgp.mit.edu/pks/lookup?op=get&search=0x9E07A0FB801E18A9"
 [author]
   name = "David Omar"
+  lastname = "Flores Chávez"
 [blackfriday]
   plainIDAnchors=true
   hrefTargetBlank=true

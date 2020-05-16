@@ -1,6 +1,7 @@
 ---
 title: "Spicing tests with generative methods"
 date: 2019-09-20T07:44:49-05:00
+toc: true
 draft: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Harder, better, faster building"
 date: 2020-04-09T00:27:28-05:00
+toc: true
 draft: false
 ---
 

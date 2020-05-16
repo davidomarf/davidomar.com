@@ -1,6 +1,7 @@
 ---
 title: "Pushing to Git Submodules Without Affecting Original Remote"
 date: 2019-09-06T20:15:13-05:00
+toc: true
 draft: false
 ---
 

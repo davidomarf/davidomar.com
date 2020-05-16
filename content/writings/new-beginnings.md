@@ -1,6 +1,7 @@
 ---
 title: "New Beginnings (again)"
 date: 2019-09-06T19:48:03-05:00
+toc: true
 draft: false
 ---
 

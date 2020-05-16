@@ -1,6 +1,7 @@
 ---
 title: "Procedurally Generated Subway Networks"
 date: 2019-09-12T00:20:19-05:00
+toc: true
 draft: true
 ---
 

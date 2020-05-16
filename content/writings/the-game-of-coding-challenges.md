@@ -1,6 +1,7 @@
 ---
 title: "The Game of Coding Challenges"
 date: 2019-11-30T15:55:55-06:00
+toc: true
 draft: true
 ---
 
