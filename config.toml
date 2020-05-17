@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "i'm david"
 theme = "hugo-journal"
 
+enableRobotsTXT= true
+
 [params]
   description = "i'm a developer and artist. i maintain a blog about generative art. i write some ideas about software or life. lowercasing is deliberate"
   githubUsername = "davidomarf"
