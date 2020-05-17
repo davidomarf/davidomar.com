@@ -1,5 +1,7 @@
 ---
 title: "Functional thinking and seemingly non-efficent code"
+excerpt: Or why I needed to forget what I knew about efficency in programming
+  to let myself rely on language optimizations.
 date: 2019-09-13T19:59:51-05:00
 toc: true
 draft: false

@@ -1,5 +1,7 @@
 ---
 title: "Data Structures for Subway Networks"
+excerpt: Or how to represent stations, lines, intersections, and whole networks
+  for easy operations on them.
 date: 2019-09-11T14:15:58-05:00
 toc: true
 draft: false

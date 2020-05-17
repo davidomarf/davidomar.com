@@ -1,5 +1,7 @@
 ---
 title: "Harder, better, faster building"
+excerpt: Or how lazyness to write commands made me create a single command for
+  every project, independently of the framework.
 date: 2020-04-09T00:27:28-05:00
 toc: true
 draft: false
