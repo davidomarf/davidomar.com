@@ -6,7 +6,6 @@ description: "
 date: 2019-08-27T18:20:45-05:00
 draft: false
 katex: true
-markup: "mmark"
 ---
 
 This tool was originally meant to be a personal tool to make my art production

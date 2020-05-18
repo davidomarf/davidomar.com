@@ -29,14 +29,8 @@ enableRobotsTXT = true
 [author]
   name = "David Omar"
   lastname = "Flores Chávez"
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
-  nofollowLinks = true
-  noreferrerLinks = true
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
   [markup.tableOfContents]
     endLevel = 2
     ordered = false
