@@ -17,7 +17,6 @@ enableRobotsTXT = true
   [talks](#talks)
   """
   resume = "./resume.pdf"
-  gtag = "UA-115039725-1"
 [params.work]
   jobTitle = "Author"
   company = "Generative Mistakes"
