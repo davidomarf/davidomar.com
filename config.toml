@@ -1,4 +1,4 @@
-baseURL = "http://davidomar.com/"
+baseURL = "https://davidomar.com/"
 languageCode = "en-us"
 title = "i'm david"
 theme = "hugo-journal"
