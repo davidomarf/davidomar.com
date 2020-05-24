@@ -5,6 +5,7 @@ description: "
   can be a slow task. This tool automates that process.<br>"
 date: 2019-08-27T18:20:45-05:00
 draft: false
+toc: true
 katex: true
 ---
 
