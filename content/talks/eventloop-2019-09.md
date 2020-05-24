@@ -33,5 +33,5 @@ This was the first iteration of the talk. I'm planning on giving several more.
 [slides]:https://davidomarf.github.io/gen-talk/
 [repository]:https://github.com/davidomarf/gen-talk
 [essay]:https://github.com/davidomarf/gen-talk/blob/master/essay.md
-[gen-mistakes]:https://gen.davidomar.com
+[gen-mistakes]:https://generativemistakes.art
 [meetup-eventloop]:https://www.meetup.com/es/eventloop/events/264372346/
