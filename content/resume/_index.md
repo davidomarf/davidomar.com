@@ -111,4 +111,8 @@ extra: >
   My favorite entries are: [On Ignorance](/writings/ignorance/),
   and  [Functional thinking and seemingly non-efficent
   code](/writings/functional-thinking/).
+
+
+  I also maintain a generative art blog at
+  [generativemistakes.art](https://generativemistakes.art)
 ---
