@@ -1,8 +1,8 @@
 ---
 title: "Last.fm user stats"
-description: "
+description: 
   Beautiful and interactive data visualization for last.fm users.
-  Built with React and D3.js."
+  Built with React and D3.js.
 date: 2019-06-09T20:20:38-05:00
 draft: false
 ---
