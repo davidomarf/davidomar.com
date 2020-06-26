@@ -161,7 +161,7 @@ It may look cryptic, but it works, runs once, and it'll always work.
 To avoid that, prefix every text with a space. It's a quick solution, although
 not the most correct one. (e.g. `[" hello", " there"]`)
 
-[See it in action here][code-onfinish]
+[See it in action here][code-ontype]
 
 ---
 
