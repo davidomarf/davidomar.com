@@ -29,8 +29,14 @@ enableRobotsTXT = true
   name = "David Omar"
   lastname = "Flores Chávez"
 
+
 [markup]
   [markup.tableOfContents]
     endLevel = 2
     ordered = false
     startLevel = 2
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    tabWidth = 2
+    highlightjs = false
