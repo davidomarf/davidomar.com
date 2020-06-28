@@ -13,7 +13,7 @@ This tool was originally meant to be a personal tool to make my art production
 process more efficient. When I thought I may not be the only one who could take
 advantage of it, I decided to make it public (and better).
 
-You can [check and use the tool](https://davidomarf.github.io/attractor-seeder/),
+You can [check and use the tool](https://attractors.davidomar.com/),
 or [check the repository](https://www.github.com/davidomarf/attractor-seeder/)
 and do with its contents whatever you want.
 
@@ -140,6 +140,6 @@ And of course, the advantage of having custom color maps like `viridis` and `mag
 [clifford]: http://paulbourke.net/fractals/clifford/
 [de-jong]: http://paulbourke.net/fractals/peterdejong/
 [p5-multiple-canvas]: /writings/unknown-number-of-canvas/
-[attractor-seeder-home]: https://davidomarf.github.io/attractor-seeder/
-[attractor-seeder-grid]: https://davidomarf.github.io/attractor-seeder/grid/?size=300&points=7000&equations=Clifford
-[attractor-seeder-drawer]: https://davidomarf.github.io/attractor-seeder/drawer/?equations=clifford&a=1.8273014502680756&b=1.6958740334761302&c=-0.5574878376673817&d=-1.4923455405069914
+[attractor-seeder-home]: https://attractors.davidomar.com/
+[attractor-seeder-grid]: https://attractors.davidomar.com/grid/?size=300&points=7000&equations=Clifford
+[attractor-seeder-drawer]: https://attractors.davidomar.com/drawer/?equations=clifford&a=1.8273014502680756&b=1.6958740334761302&c=-0.5574878376673817&d=-1.4923455405069914

@@ -75,7 +75,7 @@ projects:
         download with seeding information.
       - CLI commands to initialize projects and sketches; build projects, and
         start a live reloading server.
-  - name: "[Attractor seeder](https://davidomarf.github.io/attractor-seeder)"
+  - name: "[Attractor seeder](https://attractors.davidomar.com)"
     repo: davidomarf/attractor-seeder
     description:
       Web tool to assist generative artists interested in rendering attractors
