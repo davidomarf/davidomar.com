@@ -1,27 +1,29 @@
 ---
 title: "Data Structures for Subway Networks"
-excerpt: Or how to represent stations, lines, intersections, and whole networks
-  for easy operations on them.
+excerpt:
+  Or how to represent stations, lines, intersections, and whole networks for
+  easy operations on them.
 date: 2019-09-11T14:15:58-05:00
 code: true
 toc: true
 draft: false
 ---
 
-Currently I'm developing a twitter bot that will share a generated subway network everyday.
-The first step is writing the code that will produce the network.
+Currently I'm developing a twitter bot that will share a generated subway
+network everyday. The first step is writing the code that will produce the
+network.
 
 The first problem arised when I tried to decide how to represent it.
 
-Originally, I only thought of generating individual lines, represented in arrays, with
-each element (`station`) containing a pair of `(x, y)` coordinates. But sooner than later I
-found problems with that approach.
+Originally, I only thought of generating individual lines, represented in
+arrays, with each element (`station`) containing a pair of `(x, y)` coordinates.
+But sooner than later I found problems with that approach.
 
-I needed to mantain the line stations in order, so drawing them would be easy by connecting
-contiguous elements with a line.
+I needed to mantain the line stations in order, so drawing them would be easy by
+connecting contiguous elements with a line.
 
-I also needed to keep track of each station information, so I could later build intersections
-with other lines, if necessary.
+I also needed to keep track of each station information, so I could later build
+intersections with other lines, if necessary.
 
 So, how should I be representing these lines? And what about the whole network?
 
@@ -29,8 +31,9 @@ I decided to build bottom up, starting with the stations.
 
 ## Stations
 
-A single station should contain the line (or lines) it belongs to, its name, the previous and
-next stations, and the coordinates the stations is built in. So it had to have at least this fields:
+A single station should contain the line (or lines) it belongs to, its name, the
+previous and next stations, and the coordinates the stations is built in. So it
+had to have at least this fields:
 
 ```js
 station {
@@ -60,19 +63,21 @@ station {
 }
 ```
 
-With this information, I could easily modify each station to be part of any line by adding the id of the
-line to the `lines[]` field.
+With this information, I could easily modify each station to be part of any line
+by adding the id of the line to the `lines[]` field.
 
-By having an `id`, I could also update the name of the station without messing with the order of the stations
-inside one line.
+By having an `id`, I could also update the name of the station without messing
+with the order of the stations inside one line.
 
-If the station was either the first or last station, their respective previous and next values would be `null`.
+If the station was either the first or last station, their respective previous
+and next values would be `null`.
 
 ## Lines
 
-Once I had the structure for a single station, specifying the structure for the lines was easier.
-It just needs to contain the ids of the stations inside it, and a "shortcut" to indicate what
-of those stations have intersections with other lines.
+Once I had the structure for a single station, specifying the structure for the
+lines was easier. It just needs to contain the ids of the stations inside it,
+and a "shortcut" to indicate what of those stations have intersections with
+other lines.
 
 Just for practicity, I also included the ids of the first and last stations.
 
@@ -96,8 +101,8 @@ line {
 
 ## Network
 
-So, having the individual stations and lines, the network could be just a wrapper to contain
-all that information.
+So, having the individual stations and lines, the network could be just a
+wrapper to contain all that information.
 
 ```js
 network {
@@ -108,9 +113,9 @@ network {
 
 ## Operations over the structure
 
-What I'd want from this structure is for it to provide me with the easeness to generate new 
-stations, create intersections, and draw the network.
- 
+What I'd want from this structure is for it to provide me with the easeness to
+generate new stations, create intersections, and draw the network.
+
 For now, the basic operations are:
 
 - Creating stations
@@ -138,46 +143,46 @@ let station = {
 };
 ```
 
-
-To insert this station onto a `Line`, we use another function. See 
+To insert this station onto a `Line`, we use another function. See
 [Adding Stations to Lines](#adding-stations-to-lines)
-
 
 ### Creating lines
 
 The default way to create a line will be by just specifying `start` and `end`.
 
-Being `start` and `end` the only two stations, `size`, `stations`, and 
-`intersections` are automatically assigned to `2`, `[start.id, end.id]`,
-and `[]` respectively.
+Being `start` and `end` the only two stations, `size`, `stations`, and
+`intersections` are automatically assigned to `2`, `[start.id, end.id]`, and
+`[]` respectively.
 
 The id should be generated so it is guaranteed to be unique.
 
 ```js
-let start = { /* Create a station as before */}
-let end = { /* Create a station as before */ }
+let start = {
+  /* Create a station as before */
+};
+let end = {
+  /* Create a station as before */
+};
 
 let line = {
   id: generateUniqueID(),
   // We could automate the initialization of size,
   // stations[], and intersections[]
   size: 2,
-  stations: [
-    start.id,
-    end.id
-  ],
+  stations: [start.id, end.id],
   intersections: [],
   start: start.id,
   end: end.id
-}
+};
 ```
 
 ### Adding stations to lines
 
-To add a station to a line, we must specify the position we'll add the station to.
+To add a station to a line, we must specify the position we'll add the station
+to.
 
-This means that we have the ids of the contiguous stations that will be separated by a
-new station. And of course, the line we will add the station to.
+This means that we have the ids of the contiguous stations that will be
+separated by a new station. And of course, the line we will add the station to.
 
 ```js
 /**
@@ -190,7 +195,7 @@ new station. And of course, the line we will add the station to.
  */
 function insertStation(line, stationA, stationB, station) {
   // Push a new element of the id of the station inside the line
-  // structure 
+  // structure
   line.stations.push(station.id);
 
   // Assuming stations is global (or was sent as parameter)
@@ -212,8 +217,8 @@ function insertStation(line, stationA, stationB, station) {
 
 Or, more specifically, converting stations into intersections.
 
-This is done automatically if we call `insertStation()` defined before,
-using a station that has already been inserted into another line.
+This is done automatically if we call `insertStation()` defined before, using a
+station that has already been inserted into another line.
 
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Building an Interactive Space for Generative Art"
-excerpt: Or how I went from a plain simple unstyled web 
-  page into a static content generator focused on generative art.
+excerpt:
+  Or how I went from a plain simple unstyled web page into a static content
+  generator focused on generative art.
 date: 2019-10-01T15:31:01-05:00
 toc: true
 draft: false

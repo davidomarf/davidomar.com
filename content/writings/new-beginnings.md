@@ -1,8 +1,8 @@
 ---
 title: "New Beginnings (again)"
 excerpt:
-  Or why I really, really, really ~~like this image~~ hope this is the last time I
-  reboot my website.
+  Or why I really, really, really ~~like this image~~ hope this is the last time
+  I reboot my website.
 date: 2019-09-06T19:48:03-05:00
 toc: true
 draft: false

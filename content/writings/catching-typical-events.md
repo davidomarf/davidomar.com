@@ -1,7 +1,8 @@
 ---
 title: "Catching React Typical type events"
-excerpt: Detecting when react-typical animations finish to keep track 
-    of the last typed value.
+excerpt:
+  Detecting when react-typical animations finish to keep track of the last typed
+  value.
 date: 2020-06-25T20:10:22-05:00
 code: true
 draft: false
