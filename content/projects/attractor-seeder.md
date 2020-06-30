@@ -77,6 +77,8 @@ P5.js to draw the individual attractors, and some CSS to style the main page.
 
 ### [./][attractor-seeder-home]
 
+![Attractor Seeder Home](/img/projects/attractor-seeder-home.png)
+
 The index explains what the tool is about, and prompts you the variables that
 will be used to generate the grid:
 
@@ -91,6 +93,8 @@ Pressing `Generate` redirects to `./grid` sending the form values as URL
 parameters.
 
 ### [./grid][attractor-seeder-grid]
+
+![Attractor Seeder Grid](/img/projects/attractor-seeder-grid.png)
 
 The `./grid/` page is where you mass-generate attractors.
 
