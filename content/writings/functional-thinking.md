@@ -63,7 +63,7 @@ mutates every loop. Now you need to rely entirely in recursion.
 
 Reassigning values to variables is **discouraged**. (Yes, discouraged, since
 it's not forbidden. And in fact, it's one of the things that allows Clojure to
-[have such a powerful **REPL**][doc-repldd])
+have such a powerful **REPL**
 
 ## Functional thinking
 
@@ -192,7 +192,6 @@ with immutability or recursion depth.
 [clj-persistent-vectors]:
   https://hypirion.com/musings/understanding-persistent-vector-pt-1
 [top-down-bottom-up]: https://www.youtube.com/watch?v=Tb823aqgX_0
-[doc-repldd]: /writings/repl-driven-development
 [functional-thinking]:
   https://www.goodreads.com/book/show/18492332-functional-thinking
 [tco]: https://en.wikipedia.org/wiki/Tail_call

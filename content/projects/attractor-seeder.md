@@ -60,8 +60,8 @@ multiple squares, drawing one attracor per square. But this made it hard to deal
 with one attractor at a time.
 
 Then I moved to producing multiple canvas in a single page, and drawing one
-attractor per canvas. Although [it generated more problems at the
-beginning][p5-multiple-canvas], it was certainly a more scalable solution.
+attractor per canvas. Although it generated more problems at the beginning, it
+was certainly a more scalable solution.
 
 This new approach allowed me to introduce new functions I didn't think about at
 first:
@@ -156,7 +156,6 @@ And of course, the advantage of having custom color maps like `viridis` and
 
 [clifford]: http://paulbourke.net/fractals/clifford/
 [de-jong]: http://paulbourke.net/fractals/peterdejong/
-[p5-multiple-canvas]: /writings/unknown-number-of-canvas/
 [attractor-seeder-home]: https://attractors.davidomar.com/
 [attractor-seeder-grid]:
   https://attractors.davidomar.com/grid/?size=300&points=7000&equations=Clifford
