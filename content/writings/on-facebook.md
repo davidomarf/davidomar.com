@@ -3,6 +3,7 @@ title: On facebook
 excerpt: A brief rant.
 date: 2020-02-25T23:52:56-06:00
 toc: false
+comments: true
 draft: false
 ---
 

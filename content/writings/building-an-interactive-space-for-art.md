@@ -5,6 +5,7 @@ excerpt:
   generator focused on generative art.
 date: 2019-10-01T15:31:01-05:00
 toc: true
+comments: true
 draft: false
 ---
 

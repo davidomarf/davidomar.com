@@ -6,6 +6,7 @@ excerpt:
 date: 2019-09-11T14:15:58-05:00
 code: true
 toc: true
+comments: true
 draft: false
 ---
 

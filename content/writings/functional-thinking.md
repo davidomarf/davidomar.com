@@ -5,6 +5,7 @@ excerpt:
   myself rely on language optimizations.
 date: 2019-09-13T19:59:51-05:00
 toc: true
+comments: true
 draft: false
 ---
 
