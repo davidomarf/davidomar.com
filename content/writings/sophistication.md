@@ -74,7 +74,7 @@ The easiest way to do that was adding some extra data to those routes using a
 `data` property. An example in the Angular docs is in the second code block
 after [Adding routable animations][angular-docs].
 
-```ts
+```ts {hl_lines=["5-7"]}
 {
   path: "first/:id",
   loadChildren: () =>
@@ -87,7 +87,7 @@ after [Adding routable animations][angular-docs].
 
 So now we could use Router events to check if the current route was a sidebar:
 
-```ts
+```ts {hl_lines=["13-15","22-34"]}
 export class AppComponent implements OnInit, OnDestroy {
   // Subscription for the router events
   private checkSidebarSubscription = Subscription.EMPTY;
