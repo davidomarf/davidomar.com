@@ -1,5 +1,5 @@
 ---
-title: "When sophistication gets in the way"
+title: "When sophistication hurts functionality"
 excerpt:
   Or how I spent a whole day of slow debugging due to an error I introduced by
   trying to "prove my worth".
