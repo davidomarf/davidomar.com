@@ -3,6 +3,8 @@ title: "Attractor Seeder"
 description: "
   Selecting values that define Clifford and De Jong attractors can be a slow
   task. This tool automates that process."
+translationKey: "attractor-seeder"
+
 date: 2019-08-27T18:20:45-05:00
 draft: false
 toc: true

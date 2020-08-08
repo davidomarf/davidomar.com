@@ -5,6 +5,23 @@ theme = "hugo-journal"
 
 enableRobotsTXT = true
 
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    weight = 1
+  [languages.es]
+    contentDir = "content/es"
+    weight = 2
+    title = "soy david"
+    [languages.es.params]
+    tagline = """
+[github](https://github.com/davidomarf) &nbsp; • &nbsp; 
+[cv](cv) &nbsp; • &nbsp;
+[escritos](#escritos) &nbsp; • &nbsp;
+[proyectos](#proyectos) &nbsp; • &nbsp;
+[charlas](#charlas)
+"""
+
 [params]
   description = "i'm a developer and artist. i maintain a blog about generative art. i write some ideas about software or life. lowercasing is deliberate"
   githubUsername = "davidomarf"
@@ -18,9 +35,9 @@ enableRobotsTXT = true
   """
   resume = "./resume.pdf"
 [params.work]
-  jobTitle = "Author"
-  company = "Generative Mistakes"
-  companyUrl = "https://generativemistakes.art/"
+  jobTitle = "Front-end"
+  company = "Jaque"
+  companyUrl = "https://jaque.me/"
 [params.gpg]
   key = "0x9E07A0FB801E18A9"
   fingerprint = "E069 59EE 0FFA 5971 6569 436A 9E07 A0FB 801E 18A9"
