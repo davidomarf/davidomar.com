@@ -5,7 +5,6 @@ excerpt:
   I reboot my website.
 date: 2019-09-06T19:48:03-05:00
 toc: true
-comments: true
 draft: false
 ---
 

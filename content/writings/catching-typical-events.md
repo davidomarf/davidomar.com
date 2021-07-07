@@ -5,7 +5,6 @@ excerpt:
   value.
 date: 2020-06-25T20:10:22-05:00
 code: true
-comments: true
 draft: false
 ---
 
@@ -100,7 +99,7 @@ being deleted you must accumulate them. And then go in reverse. Like this:
   "th",
   handler,
   "t",
-  handler
+  handler,
 ];
 ```
 
@@ -144,7 +143,7 @@ const myComponent = () => {
           ...acc,
           ...cur,
           // You can pass numbers (ms) to wait after a word is typed
-          1000
+          1000,
         ],
         []
       )

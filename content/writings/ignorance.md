@@ -5,7 +5,6 @@ excerpt:
   eventually tame **some** of it.
 date: 2020-01-01T04:00:15-06:00
 toc: true
-comments: true
 draft: false
 ---
 

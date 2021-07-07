@@ -7,7 +7,6 @@ excerpt:
 date: 2019-09-06T20:15:13-05:00
 toc: true
 code: true
-comments: true
 draft: false
 ---
 
@@ -102,7 +101,6 @@ alternative to `git submodule`. I may write about it later.
 
 [gohugo]: https://gohugo.io/
 [gohugo-discourse]: https://discourse.gohugo.io/search?q=submodule%20theme
-[hugo-theme-submodules]:
-  https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme
+[hugo-theme-submodules]: https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme
 
 [^1]: Attlasian. (2019, April 19). Git submodules.

@@ -6,7 +6,6 @@ excerpt:
 date: 2020-08-08T16:30:47-05:00
 toc: true
 code: true
-comments: true
 draft: true
 ---
 
@@ -20,4 +19,4 @@ that I could make some suggestions on how to improve an _ugly_ code snippet.
 I've referred to code as `ugly` two times by now, and I want to explain what I
 mean.
 
-Code _beautyness_ is not objective. It may vary from person to person. But 
+Code _beautyness_ is not objective. It may vary from person to person. But

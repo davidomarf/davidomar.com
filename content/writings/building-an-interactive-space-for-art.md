@@ -5,7 +5,6 @@ excerpt:
   generator focused on generative art.
 date: 2019-10-01T15:31:01-05:00
 toc: true
-comments: true
 draft: false
 ---
 
@@ -108,8 +107,7 @@ about the current results, and future development of it.**
 
 I've been using it experimentaly and it really sped up my process.
 
-[tyler-subdivision]:
-  https://tylerxhobbs.com/essays/2017/aesthetically-pleasing-triangle-subdivision
+[tyler-subdivision]: https://tylerxhobbs.com/essays/2017/aesthetically-pleasing-triangle-subdivision
 [depasquale-subdivision]: https://depasquale.art/works/triangle-divider/
 [ginpar]: https://github.com/davidomarf/ginpar
 [inconvergent]: https://inconvergent.net/
@@ -119,5 +117,4 @@ I've been using it experimentaly and it really sped up my process.
 [geometryisneat]: https://www.reddit.com/r/GeometryIsNeat/
 [seinfeld]: https://www.youtube.com/watch?v=Oj3VphK9AMk
 [gasp-gallery]: https://gasp.gallery/
-[pgs]:
-  https://www.reddit.com/r/GeometryIsNeat/comments/7hgx55/procedurally_generated_symbols/
+[pgs]: https://www.reddit.com/r/GeometryIsNeat/comments/7hgx55/procedurally_generated_symbols/

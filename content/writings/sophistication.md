@@ -6,7 +6,6 @@ excerpt:
 date: 2020-07-07T08:10:12-05:00
 code: true
 toc: true
-comments: true
 draft: false
 ---
 
@@ -42,13 +41,13 @@ children: [
   {
     path: "first/:id",
     loadChildren: () =>
-      import("./first/first.module").then((m) => m.FirstModule)
+      import("./first/first.module").then((m) => m.FirstModule),
   },
   {
     path: "second/:id",
     loadChildren: () =>
-      import("./second/second.module").then((m) => m.SecondModule)
-  }
+      import("./second/second.module").then((m) => m.SecondModule),
+  },
   // ... more children
 ];
 ```

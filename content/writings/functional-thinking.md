@@ -5,7 +5,6 @@ excerpt:
   myself rely on language optimizations.
 date: 2019-09-13T19:59:51-05:00
 toc: true
-comments: true
 draft: false
 ---
 
@@ -184,14 +183,13 @@ Don't worry for the performance issues you feel you're causing by having to deal
 with immutability or recursion depth.
 
 [^cljperformance]:
-  There has been
-  [some discussion in Hacker News](https://news.ycombinator.com/item?id=6445628)
-  around Jean Pierre's article on Clojure Persistent Vectors.
+
+There has been
+[some discussion in Hacker News](https://news.ycombinator.com/item?id=6445628)
+around Jean Pierre's article on Clojure Persistent Vectors.
 
 [subway-networks]: /projects/subway-networks/
-[clj-persistent-vectors]:
-  https://hypirion.com/musings/understanding-persistent-vector-pt-1
+[clj-persistent-vectors]: https://hypirion.com/musings/understanding-persistent-vector-pt-1
 [top-down-bottom-up]: https://www.youtube.com/watch?v=Tb823aqgX_0
-[functional-thinking]:
-  https://www.goodreads.com/book/show/18492332-functional-thinking
+[functional-thinking]: https://www.goodreads.com/book/show/18492332-functional-thinking
 [tco]: https://en.wikipedia.org/wiki/Tail_call
