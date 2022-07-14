@@ -4,13 +4,11 @@ layout: resume
 position: Software Developer
 excerpt: >
 
-  I'm an engineer with a **strong interest in Open-source Software**. I invested
-  my time to OSS development and self-learning way before I pursued my first
-  job.
+  I'm an engineer with a **strong interest in Open-source Software**.
 
 
-  I have 6+ years of experience with `HTML` and `CSS`; 4+ years with `C`,
-  `Python` and `JavaScript` (more recently, and joyfully, `TypeScript`), and ~2
+  I have 6+ years of experience with `HTML` and `CSS`; 5+ years with `C`,
+  `Python` and `JavaScript` (more recently, and joyfully, `TypeScript`), and 3+
   years using frameworks such as `React` and `Angular`.
 
 
@@ -19,20 +17,61 @@ excerpt: >
   workflow of generative artists.
 
 
-  I recently started [**Racegex.io**](https://racegex.io), a game to learn,
-  practice, and compete in races using regular expressions. It's still a work in
-  progress.
+  Strongly focused on **Development Experience**, **Web Performance**, and
+  **Technical Writing**
 experience:
-  - company: "[Jaque](https://jaque.me)"
-    position: Front-end Developer
-    period: Feb 2020 - Present
-    location: Mexico City (Remote)
+  - company: "[GBM Grupo Bursátil Mexicano](https://gbm.com)"
+    position: Front-end Engineer
+    period: Dec 2020 - Present
+    location:
     stack:
       - Angular
       - NestJS
       - TypeScript
       - Socket.IO
       - RxJS
+    # annotation:
+    #   GBM is the largest stock broker in Mexico, with more than **3.8M
+    #   investment accounts**, and over **$1T MXN operated in 2021**.
+    achievements:
+      - - Led the migration of an 8-year-old AngularJS project from Gulp to
+          Webpack.
+        - Upgraded our tech stack (Vanilla JS, and CSS ⟶ ES2020, Typescript, and
+          Sass).
+        - Reduced non-cold start re-compilation time for development builds
+          **from 20s to <1s**.
+        - Simplified the build process by reducing the number of commands that
+          had to be ”manually” run.
+      - - Led the continuous upgrade of a core application (>120k weekly active
+          users) from Angular v4 to v9.
+        - Reduced initial bundle size, loading times, and crash rate, which
+          improved Apdex score from .6 to .85.
+        - Documented the core architecture of the application using Sphinx.
+        - Created a project-specific roadmap to keep up with the upgrades up to
+          Angular 14
+      - - Improved client-side performance on multiple front-end projects across
+          the whole company by adding compression
+        - Configured CachePolicies on AWS CloudFront to accept Brotli and Gzip
+          encoding
+        - Updated Webpack configurations to run compression on the generated
+          bundles
+        - Reduced the initial JS and CSS bundle size across all projects to 15%
+          of the original size (avg.)
+      - Participated in the candidate selection process, by directing technical
+        interviews, reviewing take-home assignments, and mentoring new
+        interviewers
+  - company: "[Jaque](https://jaque.me)"
+    position: Front-end Developer
+    period: Feb 2020 - Dec 2020
+    location:
+    stack:
+      - React
+      - AngularJS
+      - Angular 2+
+      - TypeScript
+      - RxJS
+      - WebSockets
+      - Unit Testing
     achievements:
       - I'm one of the two core developers of [an open source front-end
         library](https://grupojaque.gitlab.io/jaqueoss/front-commons/docs/index).
