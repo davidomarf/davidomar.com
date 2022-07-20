@@ -1,7 +1,7 @@
 ---
 title: David Omar's resume
 layout: resume
-position: Software Developer
+position: Software Engineer
 excerpt: >
 
   I'm an engineer with a **strong interest in Open-source Software**.
