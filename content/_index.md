@@ -4,7 +4,7 @@ date: 2019-09-08T13:03:20-05:00
 draft: false
 ---
 
-i'm a [front-end engineer][github] working at [gbm+][gbm]
+i'm a [software engineer][github] working at [gbm+][gbm]
 
 i'm an [artist][instagram] maintaining [a blog about generative art][gen-mistakes]
 
