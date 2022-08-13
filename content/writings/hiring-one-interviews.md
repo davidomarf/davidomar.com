@@ -5,7 +5,7 @@ excerpt:
   How to make technical interviews fair, accurate, replicable, and smooth as
   butter.
 toc: true
-draft: false
+draft: true
 ---
 
 I've been always interested on interviewing. In my firs job i wanted to be part

@@ -5,7 +5,7 @@ excerpt:
   How to make the challenges reflect actual work competency for any level of
   knowledge.
 toc: true
-draft: false
+draft: true
 ---
 
 I've been always interested on interviewing. In my firs job i wanted to be part
