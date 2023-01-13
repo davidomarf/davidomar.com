@@ -20,9 +20,12 @@ excerpt: >
   Strongly focused on **Development Experience**, **Web Performance**, and
   **Technical Writing**
 experience:
+  - company: "[Netflix](https://about.netflix.com/en)"
+    position: UI Engineer
+    period: Jan 2023 – Present
   - company: "[GBM Grupo Bursátil Mexicano](https://gbm.com)"
     position: Front-end Engineer
-    period: Dec 2020 - Present
+    period: Dec 2020 – Dec 2022
     location:
     stack:
       - Angular
@@ -62,7 +65,7 @@ experience:
         interviewers
   - company: "[Jaque](https://jaque.me)"
     position: Front-end Developer
-    period: Feb 2020 - Dec 2020
+    period: Feb 2020 – Dec 2020
     location:
     stack:
       - React
