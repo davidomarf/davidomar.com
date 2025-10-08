@@ -39,3 +39,15 @@ enableRobotsTXT = true
     codeFences = true
     tabWidth = 2
     highlightjs = false
+
+[minify]
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+      keepWhitespace = false
