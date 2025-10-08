@@ -67,7 +67,7 @@ I'm reluctant to call the page I had at the time a "portfolio". It wasn't.
 
 It was the simplest HTML page with hard coded links to the different artworks.
 
-![alt](/img/writings/building-an-interactive-space-for-art/my-first-portfolio.png)
+{{< img src="/img/writings/building-an-interactive-space-for-art/my-first-portfolio.png" caption="My first portfolio website" >}}
 
 I definetely wanted to have something different. A nicer page that at least
 showed some artwork information (such as the date of publication), and my social

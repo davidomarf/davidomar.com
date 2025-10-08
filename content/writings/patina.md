@@ -13,9 +13,7 @@ fading that show something has been part of your life. I love these marks.
 You've walked on your shoes. You've stored stuff on your backpack, and you've
 paid meals with your wallet. You've been covered on the rain by your jacket.
 
-![Backpack with ripped fabric](/img/writings/on-patina/my-backpack.jpg)
-
-> This is the backpack I was wearing when I broke my collarbone after a bike crash.
+{{< img src="/img/writings/on-patina/my-backpack.jpg" caption="This is the backpack I was wearing when I broke my collarbone after a bike crash." >}}
 
 But I’m not saying our things define us. Your value isn’t measured by the
 objects you own or how worn they are. In the end, they’re just things. Our
@@ -25,7 +23,7 @@ But it's not that, it's about all the memories you get when looking at something
 that has true patina. That happens to me whenever I look at my Peak Design
 bracket.
 
-![Scratched camera holder for backpack](/img/writings/on-patina/peak-design-bracket.jpg)
+{{< img src="/img/writings/on-patina/peak-design-bracket.jpg" caption="Scratched camera holder for backpack" >}}
 
 Looking at all the scratches that have appeared because I didn't get a
 perfect insertion immediately brings to my awareness how many pictures I've

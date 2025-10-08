@@ -23,7 +23,7 @@ collaborate!
 
 **This is a work in progress and I haven't delivered a v1.0.0 yet.**
 
-![Working App Preview](https://github.com/davidomarf/lastfm/blob/master/img/lastfm-screenshot.png?raw=true)
+{{< img src="https://github.com/davidomarf/lastfm/blob/master/img/lastfm-screenshot.png?raw=true" caption="Working App Preview" >}}
 
 [repository]: https://github.com/davidomarf/lastfm
 [lastfmstats]: https://lastfmstats.herokuapp.com/

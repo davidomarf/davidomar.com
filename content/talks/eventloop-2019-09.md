@@ -24,7 +24,7 @@ presentation about the topic.
 So one week before the event I submitted the talk proposal, and after being
 accepted, I started preparing the presentation.
 
-![](/img/talks/eventloop-sep-2019.jpg)
+{{< img src="/img/talks/eventloop-sep-2019.jpg" caption="Event Loop September 2019" >}}
 
 The original presentation I prepared took me around 60 minutes to present, but I
 had to make it fit a 20 minutes time frame, so I ended cutting a big chunk of

@@ -30,7 +30,7 @@ look for intersections when generating the line.
    - Displace the station to generate a wiggly line.
 1. Repeat 2 until the two stations are closer than a distance `d`.
 
-![Single Subway Line](/img/writings/procedurally-generated-subway-networks/single-subway-line.png)
+{{< img src="/img/writings/procedurally-generated-subway-networks/single-subway-line.png" caption="Single Subway Line" >}}
 
 ## Generating subsequent lines
 
@@ -53,7 +53,7 @@ previously existing stations.
    3. Treat the intersection as a simple station, and proceed like it's a first
       line.
 
-![Subway Network with Method 1](/img/writings/procedurally-generated-subway-networks/subway-network-method-1.png)
+{{< img src="/img/writings/procedurally-generated-subway-networks/subway-network-method-1.png" caption="Subway Network with Method 1" >}}
 
 The problem with this approach is that it doesn't necessarily connect a new line
 to the existent network. Every subsequent line should have at least one
@@ -98,9 +98,7 @@ To solve this, I'd obtain the Voronoi diagram for the stations in the network,
 and then compute the area of each polygon. This works because each point that
 built a polygon, is the closest point to every point inside that polygon.
 
-![Usage load for stations in subway network][usage-load-1]
-
-The more usage load, the darker the shade of red.
+{{< img src="/img/writings/procedurally-generated-subway-networks/subway-network-usage-load.png" caption="Usage load for stations in subway network. The more usage load, the darker the shade of red." >}}
 
 ##### Brute Force
 

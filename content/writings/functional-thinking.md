@@ -182,11 +182,9 @@ If I ever forget what I've learned in the last week, I'll just re-read this:
 Don't worry for the performance issues you feel you're causing by having to deal
 with immutability or recursion depth.
 
-[^cljperformance]:
-
-There has been
-[some discussion in Hacker News](https://news.ycombinator.com/item?id=6445628)
-around Jean Pierre's article on Clojure Persistent Vectors.
+[^cljperformance]: There has been [some discussion in Hacker
+    News](https://news.ycombinator.com/item?id=6445628) around Jean Pierre's
+    article on Clojure Persistent Vectors.
 
 [subway-networks]: /projects/subway-networks/
 [clj-persistent-vectors]: https://hypirion.com/musings/understanding-persistent-vector-pt-1

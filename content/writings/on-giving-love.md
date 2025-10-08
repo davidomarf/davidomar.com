@@ -8,10 +8,10 @@ I love Fleabag.
 
 I've watched it a few times now. But more than the entire show, I have scenes
 that I love rewatching every once in a while. And I'm not necessarily talking
-about my fascination with the Hot Priest. 
+about my fascination with the Hot Priest.
 
-I have many: That's the very reason why they put rubbers on the end of pencils.
-Get your hands off my miscarriage. It looks like a pencil.
+I have many: "That's the very reason why they put rubbers on the end of pencils".
+"Get your hands off my miscarriage". "It looks like a pencil. -- It looks chic".
 
 But one that I've thought about multiple times when trying to influence my life,
 is:
@@ -62,7 +62,7 @@ keepers of the flame. They know joy.
 > also from knowing the truth aboutt the world... They offer proof that men can
 > change.
 
-Nathaniel Brandon writes, on The Six Pillars of Self Esteem: 
+Nathaniel Brandon writes, on The Six Pillars of Self Esteem:
 
 > I am responsible for accepting or choosing the values by which I live. If I live
 > by values I have accepted or adopted passively and unthinkingly, it is easy to
@@ -71,3 +71,4 @@ Nathaniel Brandon writes, on The Six Pillars of Self Esteem:
 > and decisions are crucial when values are adopted, then I can take a fresh look
 > at my values, question them, and if necessary revise them. Again, it is taking
 > responsibility that sets me free.
+

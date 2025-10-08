@@ -17,7 +17,7 @@ Then scoring them in efficiency and robustness.
 After the first iterations, Racegex became not only a racing game, but a
 platform to learn and practice regular expressions for beginners.
 
-![Racegex home](/img/projects/racegex.png)
+{{< img src="/img/projects/racegex.png" caption="Racegex home" >}}
 
 This is a work in progress. But feel free to check it anytime at [racegex.io],
 and the source code at [daque-dev/racegex][repo].

@@ -67,14 +67,14 @@ core concepts and their connections. **You may not know anything about them, but
 you're aware of them.** These pieces are represented in gray, and are your
 **known unknowns**.
 
-![alt](/img/writings/unknown-unknowns/awareness-map.png)
+{{< img src="/img/writings/unknown-unknowns/awareness-map.png" caption="Awareness map showing known unknowns" >}}
 
 Then you start exploring, and after some research, practice, time, and sleep,
 you start to learn some of those pieces ---represented in black.
 
 You're converting known unknowns into **known knowns**.
 
-![alt](/img/writings/unknown-unknowns/knowledge-map.png)
+{{< img src="/img/writings/unknown-unknowns/knowledge-map.png" caption="Knowledge map showing conversion of known unknowns to known knowns" >}}
 
 You may even start extending your awareness network, and find new links between
 pieces (there are more gray circles now).
@@ -85,13 +85,13 @@ topics, previous experience, or implicit hints you picked up.
 
 You're building intuition. These are your **unknown knowns**.
 
-![alt](/img/writings/unknown-unknowns/intuition-map.png)
+{{< img src="/img/writings/unknown-unknowns/intuition-map.png" caption="Intuition map showing unknown knowns" >}}
 
 But even with that knowledge, you're still ignorant. Not because you don't know
 some of the pieces. **But because you're not even aware of them.** You still
 have **unknown unknowns**.
 
-![alt](/img/writings/unknown-unknowns/unawareness-map.png)
+{{< img src="/img/writings/unknown-unknowns/unawareness-map.png" caption="Unawareness map showing unknown unknowns" >}}
 
 They may be unimportant pieces that getting to learn may not even worth the
 effort. But they also may be important pieces that are fundamental to building a
