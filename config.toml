@@ -34,7 +34,12 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.extensions]
-      typographer = false
+      [markup.goldmark.extensions.typographer]
+        leftSingleQuote = "'"
+        rightSingleQuote = "'"
+        leftDoubleQuote = '"'
+        rightDoubleQuote = '"'
+        apostrophe = "'"
   [markup.tableOfContents]
     endLevel = 2
     ordered = false
