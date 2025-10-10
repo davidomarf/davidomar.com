@@ -101,12 +101,12 @@ The `./grid/` page is where you mass-generate attractors.
 The URL parameters it takes are: `size`, `points`, `equations`.
 
 To generate a new grid, you don't need to reload the page. Just press
-`space bar` and it will re-generate all the unlocked attractors.
+<kbd>Space</kbd> and it will re-generate all the unlocked attractors.
 
 Each attractor has 3 buttons:
 
 - Lock/Unlock the attractor. This avoids the attractor from being regenerated
-  when `space bar` is pressed.
+  when <kbd>Space</kbd> is pressed.
 - Copy a, b, c, d. This copies the double-precision numbers for a, b, c, and d
   that produce the attractor.
 - Render alone. To get a higher quality render of this attractor. This redirects

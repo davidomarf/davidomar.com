@@ -30,6 +30,11 @@ enableRobotsTXT = true
   lastname = "Flores Chávez"
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      typographer = false
   [markup.tableOfContents]
     endLevel = 2
     ordered = false

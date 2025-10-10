@@ -32,9 +32,9 @@ After creating the mandatory `index.html` and importing a `sketch.js` script,
 I'd:
 
 1. Modify some code in `sketch.js`.
-1. `Ctrl + S` to save.
-1. `Alt + Tab` to focus on the browser.
-1. `F5` to refresh.
+1. <kbd>Ctrl</kbd>+<kbd>S</kbd> to save.
+1. <kbd>Alt</kbd>+<kbd>Tab</kbd> to focus on the browser.
+1. <kbd>F5</kbd> to refresh.
 1. Repeat.
 
 Then months passed, then more than a year, and my process was the exact same as
